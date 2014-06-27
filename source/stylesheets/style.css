@@ -1,11 +1,9 @@
-@import url(reset.css);
-
 @font-face {
     font-family: 'PFAgoraSlabProBlack';
-    src: url('../fonts/pfagoraslabpro-black-webfont-webfont-webfont.eot');
-    src: url('../fonts/pfagoraslabpro-black-webfont-webfont-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/pfagoraslabpro-black-webfont-webfont-webfont.woff') format('woff'),
-         url('../fonts/pfagoraslabpro-black-webfont-webfont-webfont.ttf') format('truetype');
+    src: url('/fonts/pfagoraslabpro-black-webfont-webfont-webfont.eot');
+    src: url('/fonts/pfagoraslabpro-black-webfont-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/pfagoraslabpro-black-webfont-webfont-webfont.woff') format('woff'),
+         url('/fonts/pfagoraslabpro-black-webfont-webfont-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
