@@ -88,7 +88,7 @@ body {
 #content{
 	position: absolute;
 	width: 288px;
-	height: 490px;
+	height: 570px;
 	margin-left: -144px;
 	left: 50%;
 	top: 50%;
@@ -111,9 +111,9 @@ body {
 #head_shadow{
 	height: 30px;
 	width: 288px;
-	position: absolute; 
+	position: absolute;
 	text-align: center;
-	bottom: 0;
+	bottom: 80px;
 	left: 0;
 }
 #head_shadow img{
@@ -122,6 +122,24 @@ body {
 	margin-top: 0;
 	margin-top: 5px;
 }
+
+#footer{
+	height: 80px;
+	width: 288px;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	left: 0;
+}
+#footer h1{
+  background: #fff;
+  font-size: 20px;
+}
+#footer h2{
+  background: #fff;
+  font-size: 12px;
+}
+
 header .top{
 
 }
@@ -155,8 +173,8 @@ header .bottom{
 			display: block;
 			width: 324px;
 			height: 100%;
-			background: url(../img/port_title.png) left center no-repeat;
-		}
+			background: url(../img/port_title.png) left center no;
+    }
 .portfolio_item{
 	padding: 40px 0;
 	font-size: 14px;
@@ -179,6 +197,8 @@ header .bottom{
 	height: 36px;
 	background: url(../img/headmade.png) top left no-repeat;
 }
+
+
 /*Footer END*/
 @media print{
 *{background:transparent !important;color:black !important;text-shadow:none !important;filter:none !important;-ms-filter:none !important}
