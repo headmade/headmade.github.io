@@ -1,1 +1,5 @@
-//= require "functions"
+//= require "jquery.min"
+//= require "raphael"
+// require "functions"
+//= require "headmade/data"
+//= require "headmade/init" 
