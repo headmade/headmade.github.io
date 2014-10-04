@@ -1,5 +1,5 @@
 @import "compass"
-// @import "bourbon"
+@import "bourbon"
 @import "base/normalize"
 @import "base/foundation_settings"
 
@@ -10,5 +10,6 @@ body, html
 
 body
   background-color: #ffffff
-  @include filter-gradient(#ffffff, #d1d1d1, horizontal)
-  @include background-image(radial-gradient(center, ellipse cover,  #ffffff 0%,#d1d1d1 100%))
+  // @include filter-gradient(#ffffff, #d1d1d1, horizontal)
+  +radial-gradient(center, ellipse cover,  #ffffff 0%, #d1d1d1 100%)
+  // @include background-image(radial-gradient(center, ellipse cover,  #ffffff 0%,#d1d1d1 100%))
