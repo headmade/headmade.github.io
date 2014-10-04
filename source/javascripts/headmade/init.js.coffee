@@ -6,7 +6,7 @@ class @headmade.Headmade
 
     console.log(123)
 
-    paper = Raphael(0, 0, "100%", "100%").setViewBox(0, 0, 1200, 1145, true)
+    paper = Raphael("wrapper", "100%", "100%").setViewBox(0, 0, 1200, 1145, true)
 
 
     for crumb in headmade.dots.head
