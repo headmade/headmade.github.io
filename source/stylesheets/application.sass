@@ -1,6 +1,9 @@
 @import "compass"
+// @import "bourbon"
 @import "base/normalize"
 @import "base/foundation_settings"
+
+@import "head"
 
 body, html
   height: 100%
@@ -9,11 +12,3 @@ body
   background-color: #ffffff
   @include filter-gradient(#ffffff, #d1d1d1, horizontal)
   @include background-image(radial-gradient(center, ellipse cover,  #ffffff 0%,#d1d1d1 100%))
-
-#wrapper
-  height: 100%
-  max-height: 100%
-  > svg
-    display: block
-    max-width: 100%
-    max-height: 100%

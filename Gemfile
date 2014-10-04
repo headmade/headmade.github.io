@@ -4,9 +4,13 @@ source 'http://rubygems.org'
 
 gem "middleman"
 gem "middleman-deploy"
+
+gem "compass"
 # gem "compass"
 
 gem 'foundation-rails', require: false
+
+gem 'bourbon'
 
 # Live-reloading plugin
 #gem "middleman-livereload", "~> 3.1.0"
