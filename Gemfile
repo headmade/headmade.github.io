@@ -4,6 +4,7 @@ source 'http://rubygems.org'
 
 gem "middleman"
 gem "middleman-deploy"
+gem "compass"
 # Live-reloading plugin
 #gem "middleman-livereload", "~> 3.1.0"
 
