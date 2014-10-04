@@ -1,4 +1,4 @@
-page '/index.html', :layout => false
+# page '/index.html', :layout => layout
 #activate :livereload
 configure :build do
   activate :asset_hash
