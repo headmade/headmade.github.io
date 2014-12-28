@@ -1,6 +1,0 @@
-//= require "jquery.min"
-//= require "raphael"
-//= require "svg"
-// require "functions"
-//= require "headmade/data"
-//= require "headmade/init" 
