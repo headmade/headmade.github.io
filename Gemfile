@@ -6,6 +6,7 @@ source 'http://rubygems.org'
 gem "middleman", "~>3.3.6"
 
 gem 'jquery-rails', require: false
+gem "underscore-rails", require: false
 gem "foundation-rails", require: false
 
 gem 'middleman-autoprefixer'

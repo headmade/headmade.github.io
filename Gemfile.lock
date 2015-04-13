@@ -156,6 +156,7 @@ GEM
     uglifier (2.6.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    underscore-rails (1.7.0)
 
 PLATFORMS
   ruby
@@ -168,3 +169,4 @@ DEPENDENCIES
   middleman-imageoptim (~> 0.1.4)
   middleman-minify-html
   therubyracer
+  underscore-rails

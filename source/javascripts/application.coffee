@@ -20,6 +20,7 @@
 # require foundation/foundation.equalizer
 
 # Other
+#= require underscore
 
 # SVG
 # 
