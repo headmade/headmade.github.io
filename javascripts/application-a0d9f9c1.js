@@ -1,1 +1,0 @@
-!function(n){var i,a,o=!1,d=function(n,e){o||(a.animate({width:n+"=100",height:n+"=10",marginTop:e+"=5"},4e3),i.animate({marginTop:n+"=30"},4e3,function(){"+"==n?d("-","+"):d("+","-")}))};n(document).ready(function(){i=n("#head").find("img"),a=n("#head_shadow").find("img"),d("+","-")}),n(window).load(function(){})}(jQuery);
