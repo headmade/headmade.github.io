@@ -36,17 +36,9 @@
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-configure :development do
-  # activate :livereload
-
-  # Autoprefixer
-  activate :autoprefixer do |config|
-    config.browsers = ['last 2 versions', 'Explorer >= 9']
-    config.cascade  = false
-    config.inline   = true
-    # config.ignore   = ['hacks.css']
-  end
-end
+# configure :development do
+#   activate :livereload
+# end
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -64,30 +56,10 @@ set :images_dir, 'images'
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  activate :minify_css
+  # activate :minify_css
 
   # Minify Javascript on build
-  activate :minify_javascript
-  set :js_compressor, Uglifier.new(mangle: false)
-
-  # Gzip
-  activate :gzip
-
-  # Minify HTML on build
-  activate :minify_html do |html|
-    html.remove_input_attributes = false
-  end
-
-  # Optimization images
-  activate :imageoptim
-
-  # Autoprefixer
-  activate :autoprefixer do |config|
-    config.browsers = ['last 2 versions', 'Explorer >= 9']
-    config.cascade  = false
-    config.inline   = true
-    # config.ignore   = ['hacks.css']
-  end
+  # activate :minify_javascript
 
   # Enable cache buster
   # activate :asset_hash
