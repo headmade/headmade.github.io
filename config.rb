@@ -10,3 +10,7 @@ activate :deploy do |deploy|
   deploy.method = :git
   deploy.branch = :master
 end
+
+#after_build do |builder|
+#  FileUtils.cp_r 'source/downloads/.', 'build'
+#end
