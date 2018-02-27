@@ -1,0 +1,93 @@
+.c-hamburger {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  font-size: 0;
+  text-indent: -9999px;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  @include large-min {
+    display: none;
+  }
+}
+.c-hamburger span {
+  display: block;
+  position: absolute;
+  top: 13px;
+  border-radius: 4px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #0173c1;
+}
+.hamburger-wrapper {
+  position: absolute;
+  right: 15px;
+  top: 0;
+  margin-top: 10px;
+}
+
+.c-hamburger span::before, .c-hamburger span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  border-radius: 4px;
+  width: 100%;
+  height: 4px;
+  background-color: #0173c1;
+  content: "";
+}
+
+.c-hamburger span::before {
+  top: -8px;
+}
+
+.c-hamburger span::after {
+  top: 8px;
+}
+
+.c-hamburger:focus {
+  outline: none;
+}
+
+.c-hamburger--htx span::before,
+.c-hamburger--htx span::after {
+  transition-duration: 0.3s, 0.3s;
+  transition-delay: 0.3s, 0s;
+}
+
+.c-hamburger--htx span::before {
+  transition-property: top, transform;
+}
+
+.c-hamburger--htx span::after {
+  transition-property: bottom, transform;
+}
+
+/* состояние active при открытом меню  */
+
+.c-hamburger--htx.active span {
+  background: none;
+}
+
+.c-hamburger--htx.active span::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.c-hamburger--htx.active span::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+.c-hamburger--htx.active span::before,
+.c-hamburger--htx.active span::after {
+  transition-delay: 0s, 0.3s;
+}

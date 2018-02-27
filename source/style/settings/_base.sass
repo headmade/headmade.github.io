@@ -1,0 +1,33 @@
+@import 'vars'
+@import 'mixin'
+
+html
+  font-size: $general-font-size
+
+a
+  text-decoration: none
+  &:hover
+    text-decoration: none
+  &:focus
+    outline: none
+
+ul
+  margin: 0
+  list-style-type: none
+
+
+label
+  margin-bottom: 8px
+  color: color('text', 'darker')
+
+@media only screen and (max-width: 1200px)
+  html
+    font-size: 15px
+
+@media only screen and (max-width: 992px)
+  html
+    font-size: 14px
+
+@media only screen and (max-width: 768px)
+  html
+    font-size: 13px

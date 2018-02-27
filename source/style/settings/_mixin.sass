@@ -1,0 +1,54 @@
+@import 'vars'
+
+@function rem-calcF($size)
+  $remSize: ($size / $general-font-size) * 1rem
+  @return $remSize
+
+@mixin rem-calc($size)
+  font-size: rem-calcF($size)
+
+@mixin font($font-family: $general-ff-pfagoraslabpro, $font-weight: $general-font-weight, $font-size: $general-font-size, $font-color: $text-base, $font-line-height: $general-font-line-height, $font-style: normal)
+  font-family: $font-family
+  font-weight: $font-weight
+  font-size: rem-calcF($font-size)
+  color: $font-color
+  line-height: $font-line-height
+  font-style: $font-style
+
+@mixin img($img-display: block, $img-width: 100%, $img-height: auto)
+  display: $img-display
+  width: $img-width
+  height: $img-height
+
+@mixin inline-block($inline-block-vertical-align: top)
+  vertical-align: $inline-block-vertical-align
+  display: inline-block
+
+@mixin pseudo($pseudo-width: 0, $pseudo-height: 0, $pseudo-top: auto, $pseudo-right: auto, $pseudo-bottom: auto, $pseudo-left: auto, $pseudo-content: '', $pseudo-position: absolute)
+  content: $pseudo-content
+  position: $pseudo-position
+  top: $pseudo-top
+  right: $pseudo-right
+  bottom: $pseudo-bottom
+  left: $pseudo-left
+  width: $pseudo-width
+  height: $pseudo-height
+
+@function color( $name: 'primary', $variant: $scotch-color-key, $opacity: 1 )
+  $color: null
+
+  // Get the color spectrum
+  $color-spectrum: map-get($general-pallet, $name)
+
+  // Get the color variant
+  @if $color-spectrum
+    $color: map-get($color-spectrum, $variant)
+
+  // Get the alpha setting
+  $alpha: if(type-of($opacity) == 'number', $opacity, map-get($general-opacity, $opacity))
+
+  // Set the alpha of the color
+  @if $alpha
+    $color: rgba($color, $alpha)
+
+  @return $color
