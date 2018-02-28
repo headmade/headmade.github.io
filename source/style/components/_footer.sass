@@ -1,0 +1,32 @@
+@import '../settings/vars'
+@import '../settings/mixin'
+@import '../settings/media'
+
+footer.footer
+  border-top: 1px solid #e9ecee
+  width: 100%
+  background-color: #fff
+
+nav.footer__nav
+  display: flex
+  flex-wrap: wrap
+  & .nav__list
+    display: flex
+    & .nav__item
+      padding: 0 20px
+      & .nav__link
+        @include font($general-ff-pfagoraslabpro, $general-font-weight, 18px, #676767)
+        display: block
+        padding: 20px 0
+        position: relative
+        transition: color .4s ease
+        &:hover, &:focus
+          color: #28c23e
+
+  & .nav__coop
+    padding: 20px 0
+    @include font($general-ff-pfagoraslabpro, $general-font-weight-light, 18px, #676767)
+    margin-left: auto
+    margin-bottom: 0
+    @include xsmall
+      margin-left: 20px

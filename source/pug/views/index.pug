@@ -4,9 +4,17 @@ block title
   | Главная
 
 block components
-  section.about-dit
-    .container
-      .row
-        .col-xs-12
-          .about-dit__top-img-wrapper
-            h1.about-dit__caption О Департаменте телекоммуникационных технологий
+  section.head__wrapper
+    .row
+      .columns
+        .head
+          .head__img
+            img(src=require('../../images/brain.png'))
+          .head__shadow
+            img(src=require('../../images/head_shadow.png'))
+
+  //%h2 г. Казань, ул.Московская, д.22
+  //%h2 +7(843)259-99-23
+  //%h2
+  //%a{href: "mailto:info@headmade.pro"}
+  //info@headmade.pro
