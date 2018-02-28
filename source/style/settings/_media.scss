@@ -15,6 +15,11 @@ $xxlarge: 1440px;
     @content;
   }
 }
+@mixin xsmallHamburger {
+  @media (min-width: #{$xsmall}) {
+    @content;
+  }
+}
 
 @mixin medium {
   @media (max-width: #{$medium}) {

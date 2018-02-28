@@ -13,7 +13,7 @@
   border: none;
   cursor: pointer;
   transition: background 0.3s;
-  @include large-min {
+  @include xsmallHamburger {
     display: none;
   }
 }
