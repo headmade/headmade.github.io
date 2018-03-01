@@ -21,6 +21,21 @@ module.exports = {
       chunks: ['index'],
       template: PATHS.source + '/pug/views/index.pug'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'contacts.html',
+      chunks: ['index'],
+      template: PATHS.source + '/pug/views/contacts.pug'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'projects.html',
+      chunks: ['index'],
+      template: PATHS.source + '/pug/views/projects.pug'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'aboutUs.html',
+      chunks: ['index'],
+      template: PATHS.source + '/pug/views/aboutUs.pug'
+    }),
     new ExtractTextPlugin('bundle.css')
   ],
   module: {
@@ -49,7 +64,7 @@ module.exports = {
                 sourceMap: true
               }
             },
-            // 'resolve-url-loader',
+            'resolve-url-loader',
             {
               loader: 'sass-loader',
               options: {

@@ -1,0 +1,44 @@
+@import '../settings/vars'
+@import '../settings/mixin'
+@import '../settings/media'
+
+.contacts__wrapper
+  padding: 100px
+  background: #ffffff
+  border-top: 1px solid #e9ecee
+
+.contacts
+  display: flex
+  flex-direction: column
+  align-items: center
+  & .h1
+    margin-bottom: 80px
+
+.icon
+  position: relative
+  padding-left: 50px
+  margin-bottom: 30px
+  &:after
+    content: ''
+    display: block
+    position: absolute
+    left: 0
+    top: -5px
+    width: 40px
+    height: 40px
+  &.map .icon__link
+    cursor: default
+
+  & .icon__link
+    text-decoration: none
+    @include font($general-ff-pfagoraslabpro, $general-font-weight-bold, 28px, #1d2738)
+    opacity: .9
+    transition: all .4s ease
+    &:hover
+      color: color('primary')
+  &.message:after
+    background-image: url("../../images/message.svg")
+  &.phone:after
+    background-image: url("../../images/phone.svg")
+  &.map:after
+    background-image: url("../../images/map.svg")

@@ -4,7 +4,7 @@
 
 header.header
   box-shadow: 0 0 15px 0 rgba(0,0,0,.1)
-  position: sticky
+  position: fixed
   top: 0
   z-index: 10
   width: 100%
@@ -22,7 +22,12 @@ nav.header__nav
       display: none
     .nav__item
       padding: 0 20px
-      a
+      &.active .nav__link
+        color: #28c23e
+        cursor: default
+        &:after
+          transform: translate(-50%,0) scaleX(1)
+      & .nav__link
         @include font()
         text-transform: uppercase
         display: block

@@ -1,0 +1,14 @@
+extends  ../general
+
+block title
+  | Контакты
+
+block footerContacts
+  a.nav__link.active(href="/contacts.html") Контакты
+
+block contactsActive
+  li.nav__item.active
+    a.nav__link Контакты
+
+block components
+  include ../includes/_contacts

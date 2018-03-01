@@ -1,0 +1,14 @@
+extends  ../general
+
+block title
+  | О нас
+
+block footerProject
+  a.nav__link.active(href="/projects.html") Проекты
+
+block projectsActive
+  li.nav__item.active
+    a.nav__link(href="/projects.html") Проекты
+
+block components
+  include ../includes/_aboutUs

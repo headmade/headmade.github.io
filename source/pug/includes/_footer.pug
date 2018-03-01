@@ -4,11 +4,15 @@ footer.footer
       nav.footer__nav
         ul.nav__list
           li.nav__item
-            a.nav__link Домой
+            block footerHome
+              a.nav__link(href="/") Домой
           li.nav__item
-            a.nav__link Проекты
+            block footerProject
+              a.nav__link(href="/projects.html") Проекты
           li.nav__item
-            a.nav__link Контакты
+            block footerContacts
+              a.nav__link(href="/contacts.html") Контакты
           li.nav__item
-            a.nav__link О Нас
+            block footerAbout
+              a.nav__link(href="/aboutUs.html") О Нас
         p.nav__coop Copyright © 2018 HeadMade

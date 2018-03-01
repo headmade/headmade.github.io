@@ -1,0 +1,14 @@
+extends  ../general
+
+block title
+  | О нас
+
+block footerAbout
+  a.nav__link.active(href="/aboutUs.html") О Нас
+
+block aboutActive
+  li.nav__item.active
+    a.nav__link(href="/aboutUs.html") О Нас
+
+block components
+  include ../includes/_aboutUs
