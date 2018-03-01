@@ -1,0 +1,36 @@
+@import '../settings/vars'
+@import '../settings/mixin'
+@import '../settings/media'
+
+.expertise__wrapper
+  background-color: #fff
+  padding: 100px 0
+  border-top: 1px solid #e9ecee
+
+.expertise
+  display: flex
+  flex-direction: column
+  align-items: center
+  & .expertise__list
+    display: flex
+    justify-content: space-around
+    flex-wrap: wrap
+    margin-top: 60px
+    width: 100%
+    & .expertise__item
+      display: flex
+      flex-direction: column
+      align-items: center
+      text-align: center
+      max-width: 250px
+      margin: 10px
+      & .expertise__img
+        width: 70px
+        height: 70px
+        margin-bottom: 30px
+        & img
+          @include img()
+      & .item__caption
+        @include font($general-ff-pfagoraslabpro, $general-font-weight-bold, 26px, #1d2738)
+      & .item__text
+        @include font($general-ff-pfagoraslabpro, $general-font-weight, 16px, #676767)

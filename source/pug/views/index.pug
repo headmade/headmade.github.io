@@ -4,15 +4,9 @@ block title
   | Главная
 
 block components
-  section.head__wrapper
-    .row
-      .columns
-        .head
-          .head__img
-            img(src=require('../../images/brain.png'))
-          .head__shadow
-            img(src=require('../../images/head_shadow.png'))
-
+  include ../includes/_airHead
+  include ../includes/_expertise
+    
   //%h2 г. Казань, ул.Московская, д.22
   //%h2 +7(843)259-99-23
   //%h2
