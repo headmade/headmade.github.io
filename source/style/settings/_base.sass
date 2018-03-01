@@ -21,9 +21,16 @@ a
   &:focus
     outline: none
 
+p.p
+  @include font($general-ff-pfagoraslabpro, $general-font-weight, 22px, #1d2738)
+
 ul
   margin: 0
   list-style-type: none
+  & li.li
+    @include font($general-ff-pfagoraslabpro, $general-font-weight, 18px, #1d2738)
+    margin-bottom: 5px
+
 
 h1.h1
   margin-bottom: 20px
