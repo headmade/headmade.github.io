@@ -2,44 +2,66 @@
 @import '../settings/mixin'
 @import '../settings/media'
 
-.contacts__wrapper
+.projects__wrapper
   padding: 100px
   background: #ffffff
   border-top: 1px solid #e9ecee
 
-.contacts
+.projects
   display: flex
   flex-direction: column
   align-items: center
   & .h1
     margin-bottom: 80px
 
-.icon
-  position: relative
-  padding-left: 50px
-  margin-bottom: 30px
-  padding-top: 5px
-  &:after
-    content: ''
-    display: block
-    position: absolute
-    left: 0
-    top: -5px
-    width: 40px
-    height: 40px
-  &.map .icon__link
-    cursor: default
-
-  & .icon__link
-    text-decoration: none
-    @include font($general-ff-pfagoraslabpro, $general-font-weight-bold, 28px, #1d2738)
-    opacity: .9
-    transition: all .4s ease
-    &:hover
-      color: color('primary')
-  &.message:after
-    background-image: url("../../images/message.svg")
-  &.phone:after
-    background-image: url("../../images/phone.svg")
-  &.map:after
-    background-image: url("../../images/map.svg")
+.monitor__wrapper
+  max-height: 400px
+  width: 100%
+  .monitor
+    width: 100%
+    max-width: 515px
+    min-width: 350px
+    height: 300px
+    margin: 0 auto
+    position: relative
+    background-color: #ccc
+    border-radius: 5px
+    &:before
+      content: ''
+      position: absolute
+      bottom: calc(2.5%/2)
+      left: calc(50% - 7.5px)
+      text-align: center
+      width: 15px
+      height: 15px
+      background-color: #fff
+      border-radius: 50%
+    & .monitor__stand-bot
+      position: absolute
+      bottom: -37px
+      left: 35%
+      height: 5px
+      width: 30%
+      background-color: #ccc
+      transition: all .5s
+      border-radius: 3px
+    & .monitor__stand
+      position: absolute
+      bottom: -31px
+      left: 45%
+      height: 30px
+      background-color: #ccc
+      width: 10%
+      transition: all .5s
+    & .monitor__img
+      top: 2.5%
+      position: absolute
+      background-color: #fff
+      width: 96%
+      height: 90%
+      left: 2%
+      overflow: hidden
+      transition: all .3s
+      transition-delay: .3s
+      & img
+        @include img( )
