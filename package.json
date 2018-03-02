@@ -4,6 +4,7 @@
   "main": "index.js",
   "repository": "https://github.com/headmade/headmade.github.io.git",
   "author": "Headmade",
+  "license" : "LICENSE",
   "scripts": {
     "dev": "webpack-dev-server --env ",
     "build": "webpack --env"

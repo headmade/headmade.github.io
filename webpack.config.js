@@ -36,6 +36,11 @@ module.exports = {
       chunks: ['index'],
       template: PATHS.source + '/pug/views/aboutUs.pug'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'tovar-link.html',
+      chunks: ['index'],
+      template: PATHS.source + '/pug/views/tovar-link.pug'
+    }),
     new ExtractTextPlugin('bundle.css')
   ],
   module: {

@@ -13,14 +13,28 @@
   align-items: center
   & .h1
     margin-bottom: 80px
+  & .projects__list
+    display: flex
+    flex-direction: column
+
+.list__item
+  display: flex
+  @include xlarge
+    flex-wrap: wrap
+
+.info
+  margin-left: 40px
+  .info__caption
+    font-size: 26px
 
 .monitor__wrapper
   max-height: 400px
+  padding-bottom: 60px
   width: 100%
   .monitor
     width: 100%
     max-width: 515px
-    min-width: 350px
+    min-width: 320px
     height: 300px
     margin: 0 auto
     position: relative
@@ -64,4 +78,5 @@
       transition: all .3s
       transition-delay: .3s
       & img
-        @include img( )
+        @include img()
+        height: 100%

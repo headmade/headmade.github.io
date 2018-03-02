@@ -1,11 +1,17 @@
-section.contacts__wrapper
+section.projects__wrapper
   .row
     .columns
-      .contacts
-        h1.h1 Get in touch with us!
-        .monitor__wrapper
-          .monitor
-            .monitor__stand
-            .monitor__stand-bot
-            .monitor__img
-              img(src=require("../../images/test.jpg") alt="alt")
+      .projects
+        h1.h1 Проекты
+        ul.projects__list
+          li.list__item
+            .monitor__wrapper
+              .monitor
+                .monitor__stand
+                .monitor__stand-bot
+                .monitor__img
+                  img(src=require("../../images/test.jpg") alt="alt")
+            .info
+              h3.info__caption tovar-link
+              p.info__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, cumque dicta eaque id ipsa iusto nemo odio provident quam quasi!
+              a.btn(href='/tovar-link.html') Подробнее
