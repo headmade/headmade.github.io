@@ -4,4 +4,14 @@ block title
   | tovar-link
 
 block components
-  include ../includes/_project
+  section.project
+    .row
+      .columns.medium-6.small-12.small-order-2.medium-order-1
+        .project__lending
+          .project__lending-img
+            img(src=require("../../images/test-lending.jpg") alt="alt")
+      .columns.medium-6.small-12.small-order-1.medium-order-2
+        .project__info
+          h3.info__caption tovar-link
+          p.info__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, cumque dicta eaque id ipsa iusto nemo odio provident quam quasi!
+          a.btn(href='/tovar-link.html') Подробнее
