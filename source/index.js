@@ -10,15 +10,10 @@ document.addEventListener('DOMContentLoaded', function(){
   })
 
   const test = document.querySelectorAll('.btn-list__item')
-  for(let i = 0; i < test.length; i++) {
-    const currentSrc = test[i].getAttribute('data-src');
-    test[i].addEventListener('click', function (e) {
-      console.log('---', e)
-    })
-    console.log('---', currentSrc)
-    // test[i].setAttribute('src',''); // remove old src data
-    // test[i].setAttribute('data-src','currentSrc');
-    // console.log('---', currentSrc)
-  }
-  console.log('---', test)
+  const test2 = document.querySelectorAll('.monitor')
+  console.log('---', test2)
+  test.addEventListener('click', function () {
+    console.log('---', test.dataset.monitor)
+  })
+
 });

@@ -7,16 +7,17 @@ section.projects__wrapper
           li.list__item
             .left-block
               .monitor__wrapper
-                .monitor.phone
+                .monitor.tablet
                   .monitor__stand
                   .monitor__stand-bot
                   .monitor__img
-                    img(src=require("../../images/tovar.link__desktop.png") alt="alt").monitor__img--desctop.active
+                    img(src=require("../../images/tovar.link__desktop.png") alt="alt").monitor__img--desktop.active
                     img(src=require("../../images/development.svg") alt="alt").monitor__img--tablet
-                    img(data-src=require("../../images/strategy.svg") alt="alt").monitor__img--phone
+                    img(src=require("../../images/strategy.svg") alt="alt").monitor__img--phone
               ul.monitor__btn-list
-                li.btn-list__item(data-src=require("../../images/strategy.svg")) test
-                li.btn-list__item(data-src=require("../../images/tovar.link__desktop.png")) 2123
+                li.btn-list__item(data-monitor='desktop') 211233
+                li.btn-list__item.tablet test
+                li.btn-list__item.phone 21
 
             .info
               h3.info__caption Tovar-link
