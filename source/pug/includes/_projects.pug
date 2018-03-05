@@ -5,13 +5,31 @@ section.projects__wrapper
         h1.h1 Проекты
         ul.projects__list
           li.list__item
+            .left-block
+              .monitor__wrapper
+                .monitor.phone
+                  .monitor__stand
+                  .monitor__stand-bot
+                  .monitor__img
+                    img(src=require("../../images/tovar.link__desktop.png") alt="alt").monitor__img--desctop.active
+                    img(src=require("../../images/development.svg") alt="alt").monitor__img--tablet
+                    img(data-src=require("../../images/strategy.svg") alt="alt").monitor__img--phone
+              ul.monitor__btn-list
+                li.btn-list__item(data-src=require("../../images/strategy.svg")) test
+                li.btn-list__item(data-src=require("../../images/tovar.link__desktop.png")) 2123
+
+            .info
+              h3.info__caption Tovar-link
+              p.info__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, cumque dicta eaque id ipsa iusto nemo odio provident quam quasi!
+              a.btn(href='/tovar-link.html') Подробнее
+          li.list__item
             .monitor__wrapper
-              .monitor
+              .monitor.desktop
                 .monitor__stand
                 .monitor__stand-bot
                 .monitor__img
                   img(src=require("../../images/test.jpg") alt="alt")
             .info
-              h3.info__caption tovar-link
+              h3.info__caption Tovar-link
               p.info__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, cumque dicta eaque id ipsa iusto nemo odio provident quam quasi!
               a.btn(href='/tovar-link.html') Подробнее

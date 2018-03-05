@@ -6,6 +6,8 @@
   padding: 100px 0
   position: relative
   background: #ffffff
+  @include small
+    padding: 40px 0
 
 .project__lending
   position: relative
@@ -16,6 +18,48 @@
     top: 0
     left: 0
     width: 100%
-    max-width: 500px
     height: 500px
     overflow-y: scroll
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.5)
+    & img
+      @include img()
+  & .mouse
+    position: absolute
+    top: 50%
+    right: -60px
+    width: 60px
+    margin-top: -41px
+    text-align: center
+    cursor: pointer
+    @include small
+      top: 0
+      right: 50%
+      transform: translateX(50%)
+      margin-top: 0
+      background: white
+      border-bottom-left-radius: 30px
+      border-bottom-right-radius: 30px
+      opacity: .5
+    & svg
+      fill: none
+      stroke: #111
+      & #arrow1, & #arrow2
+        fill: none
+        stroke: #111
+        stroke-width: 2
+        stroke-linecap: round
+        animation: arrows .7s infinite, arrow_intro 2.25s forwards
+      & polyline + polyline
+        animation-delay: .1s!important
+
+@keyframes arrows
+  0%, 100%
+    transform: translate3d(0,0,0)
+  50%
+    transform: translate3d(0,-2px,0)
+
+@keyframes arrow_intro
+  0%, 50%
+    opacity: 0
+  100%
+    opacity: 1

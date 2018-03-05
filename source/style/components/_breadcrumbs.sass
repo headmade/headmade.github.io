@@ -1,0 +1,33 @@
+@import '../settings/vars'
+@import '../settings/mixin'
+@import '../settings/media'
+
+$breadcrumbs__fsz: 15px
+
+.breadcrumbs
+  display: flex
+  margin: 0 0 40px 40px
+  @include small
+    margin: 0 0 20px 0
+  & .breadcrumbs__item
+    display: inline-block
+    position: relative
+    margin-right: 20px
+    @include font($general-ff-pfagoraslabpro, $general-font-weight, $breadcrumbs__fsz,  #676)
+    &.breadcrumbs__item--last:before
+      content: ''
+    &:before
+      position: absolute
+      content: '/'
+      top: 0
+      right: -18px
+      width: 15px
+      height: 22px
+      font-size: $breadcrumbs__fsz
+      text-align: center
+      color: color('primary')
+    & .breadcrumbs__link
+      display: block
+      @include font($general-ff-pfagoraslabpro, $general-font-weight-light, $breadcrumbs__fsz,  color('primary'))
+      &:hover, &:focus
+        text-decoration: underline
