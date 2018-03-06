@@ -4,8 +4,8 @@ footer.footer
       nav.footer__nav
         ul.nav__list
           li.nav__item
-            block footerHome
-              a.nav__link(href="/") Домой
+            a.nav__link.logo-img(href="/")
+              img(src=require('../../images/brain.png'))
           li.nav__item
             block footerProject
               a.nav__link(href="/projects.html") Проекты
