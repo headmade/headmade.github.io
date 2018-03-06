@@ -52,3 +52,15 @@
     $color: rgba($color, $alpha)
 
   @return $color
+
+@keyframes arrows
+  0%, 100%
+    transform: translate3d(0,0,0)
+  50%
+    transform: translate3d(0,-2px,0)
+
+@keyframes arrow_intro
+  0%, 50%
+    opacity: 0
+  100%
+    opacity: 1

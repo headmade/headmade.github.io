@@ -1,6 +1,7 @@
 export default class AnimateScroll {
-  constructor(param){
-    const imgL = document.querySelector('.project__lending-img')
+  constructor(param, selector){
+    const imgL = document.querySelector(selector)
+    console.log('---', imgL)
     const start = imgL.scrollTop
     const end = imgL.scrollHeight
     const change = end - start

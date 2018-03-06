@@ -1,19 +1,21 @@
 import './style/general.scss';
 import Hamburger from "./javascripts/hamburger";
+import MonitorBtns from "./javascripts/MonitorBtns";
 import AnimateScroll from "./javascripts/animateScroll";
+import test from "./images/projects/tovar.link/tovar.link__desktop.png";
 
 document.addEventListener('DOMContentLoaded', function(){
   new Hamburger('.header')
-  const mouse = document.querySelector('.mouse')
-  mouse && mouse.addEventListener('click', function () {
-    new AnimateScroll(2000)
+  
+  new MonitorBtns()
+  console.log('---', test)
+  const mouseIndex = document.querySelector('.mouse.mouseIndex')
+  mouseIndex && mouseIndex.addEventListener('click', function () {
+    new AnimateScroll(2000, 'html')
   })
-
-  const test = document.querySelectorAll('.btn-list__item')
-  const test2 = document.querySelectorAll('.monitor')
-  console.log('---', test2)
-  test.addEventListener('click', function () {
-    console.log('---', test.dataset.monitor)
+  
+  const mouseLanding = document.querySelector('.mouse.mouseLanding')
+  mouseLanding && mouseLanding.addEventListener('click', function () {
+    new AnimateScroll(2000, '.project__lending-img')
   })
-
 });

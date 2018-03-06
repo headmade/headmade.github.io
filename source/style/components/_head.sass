@@ -27,6 +27,26 @@
       animation: shadowHead 8s ease infinite alternate
       & img
         @include img()
+    & .mouse
+      position: absolute
+      bottom: 20px
+      right: 50%
+      transform: translateX(50%)
+      width: 60px
+      margin-top: -41px
+      text-align: center
+      cursor: pointer
+      & svg
+        fill: none
+        stroke: #9a9a9a
+        & #arrow1, & #arrow2
+          fill: none
+          stroke: #9a9a9a
+          stroke-width: 2
+          stroke-linecap: round
+          animation: arrows .7s infinite, arrow_intro 2.25s forwards
+        & polyline + polyline
+          animation-delay: .1s!important
 
 @keyframes airHead
   0%, 100%

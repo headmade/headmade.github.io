@@ -41,6 +41,11 @@ module.exports = {
       chunks: ['index'],
       template: PATHS.source + '/pug/views/tovar-link.pug'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'flowers.kzn.html',
+      chunks: ['index'],
+      template: PATHS.source + '/pug/views/flowers.kzn.pug'
+    }),
     new ExtractTextPlugin('bundle.css')
   ],
   module: {

@@ -12,6 +12,8 @@
 .project__lending
   position: relative
   min-height: 500px
+  @include large
+    margin-top: 80px
   & .project__lending-img
     position: absolute
     display: block
@@ -31,7 +33,7 @@
     margin-top: -41px
     text-align: center
     cursor: pointer
-    @include small
+    @include xlarge
       top: 0
       right: 50%
       transform: translateX(50%)
@@ -39,7 +41,7 @@
       background: white
       border-bottom-left-radius: 30px
       border-bottom-right-radius: 30px
-      opacity: .5
+      opacity: .8
     & svg
       fill: none
       stroke: #111
@@ -51,15 +53,3 @@
         animation: arrows .7s infinite, arrow_intro 2.25s forwards
       & polyline + polyline
         animation-delay: .1s!important
-
-@keyframes arrows
-  0%, 100%
-    transform: translate3d(0,0,0)
-  50%
-    transform: translate3d(0,-2px,0)
-
-@keyframes arrow_intro
-  0%, 50%
-    opacity: 0
-  100%
-    opacity: 1
