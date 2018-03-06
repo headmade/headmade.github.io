@@ -51,6 +51,11 @@ module.exports = {
       chunks: ['index'],
       template: PATHS.source + '/pug/views/aliposter.pug'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'cemetery.kzn.html',
+      chunks: ['index'],
+      template: PATHS.source + '/pug/views/cemetery.kzn.pug'
+    }),
     new ExtractTextPlugin('bundle.css')
   ],
   module: {
