@@ -4,7 +4,7 @@
   "main": "index.js",
   "repository": "https://github.com/headmade/headmade.github.io.git",
   "author": "Headmade",
-  "license" : "LICENSE",
+  "license": "LICENSE",
   "scripts": {
     "dev": "webpack-dev-server --env ",
     "build": "webpack --env"
@@ -28,5 +28,9 @@
     "webpack-cli": "^2.0.9",
     "webpack-dev-server": "^2.5.0",
     "webpack-merge": "^4.1.2"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.5.0",
+    "gh-pages-webpack-plugin": "^1.0.2"
   }
 }

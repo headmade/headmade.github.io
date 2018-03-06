@@ -1,6 +1,8 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+var GhPagesWebpackPlugin = require('gh-pages-webpack-plugin');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const PATHS = {
   source: path.join(__dirname, 'source'),
@@ -56,7 +58,25 @@ module.exports = {
       chunks: ['index'],
       template: PATHS.source + '/pug/views/cemetery.kzn.pug'
     }),
-    new ExtractTextPlugin('bundle.css')
+    new ExtractTextPlugin('bundle.css'),
+    new CopyWebpackPlugin([
+      { from: 'CNAME' },
+      { from: 'source/favicon.ico', to: 'favicon.ico' },
+      { from: 'source/robots.txt', to: 'robots.txt' },
+    ]),
+    new GhPagesWebpackPlugin({
+        path: 'build',
+        options: {
+          branch: 'master',
+          add: false,
+          repo: 'git@github.com:headmade/headmade.github.io.git',
+          message: 'Update Page',
+          user: {
+              name: 'Headmade',
+              email: 'info@headmade.pro'
+          }
+        }
+    })
   ],
   module: {
     rules: [
