@@ -1,7 +1,7 @@
 extends  ../general
 
 block title
-  | tovar-link
+  | Tovar.link
 
 block components
   section.project
@@ -21,36 +21,49 @@ block components
             a(href='/').breadcrumbs__link Главная
           li.breadcrumbs__item
             a(href='/projects.html').breadcrumbs__link Проекты
-          li.breadcrumbs__item.breadcrumbs__item--last Tovar-link
+          li.breadcrumbs__item.breadcrumbs__item--last Tovar.link
         .info
-          h1.h1 Tovar-link
+          h1.h1 Tovar.link
           hr.hr
-          h3.item__caption Lorem ipsum dolor sit.
-          p.info__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, cumque dicta eaque id ipsa iusto nemo odio provident quam quasi!
+          h3.item__caption Описание
+          p.info__text Всё просто! Проект даёт простым людям возможность монетизировать простой и любимый процесс - шаринг ссылок в соц.сетях, а комиссия за покупки друзей по этим ссылкам просто приходит на мобильный телефон.
           hr.hr
-          h3.item__caption Technologies:
+          h3.item__caption Наше участие
           ul.info__list
             li.info__item
-              span html
+              span Бизнес-идея и концепция проекта
             li.info__item
-              span css
+              span Дизайн и разработка
             li.info__item
-              span sass
+              span Эксплуатация и сопровождение
+            li.info__item
+              span Поиск партнёров и инвесторов
           hr.hr
           a.btn(target="_blank" href='https://tovar.link/') Перейти на сайт
       .columns.large-6.small-12.medium-order-3.small-order-3
         .statistics.info
-          h3.item__caption Статистика:
+          hr.hr
+          h3.item__caption Показатели
           ul.info__list
             li.info__item
-              span html
+              span Сокращённых ссылок: более 500 000
             li.info__item
-              span css
+              span Уникальных пользователей: более 18 000
             li.info__item
-              span sass
+              span Количество кликов в день: более 10 000
           hr.hr
-          h3.item__caption Lorem ipsum dolor sit.
-          p.info__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, cumque dicta eaque id ipsa iusto nemo odio provident quam quasi!
+          h3.item__caption Технологии
+          ul.info__list
+            li.info__item
+              span html, css, sass
+            li.info__item
+              span javascript, webpack
+            li.info__item
+              span микросервисная архитектура, go, grpc
+            li.info__item
+              span PostgreSQL, NATS
+          h3.item__caption
+          p.info__text
       .columns.large-6.small-12.medium-order-4.small-order-4
         .monitor-block.statistics
           .monitor__wrapper
