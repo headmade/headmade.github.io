@@ -34,9 +34,9 @@ module.exports = {
       template: PATHS.source + '/pug/views/projects.pug'
     }),
     new HtmlWebpackPlugin({
-      filename: 'aboutUs.html',
+      filename: 'about.html',
       chunks: ['index'],
-      template: PATHS.source + '/pug/views/aboutUs.pug'
+      template: PATHS.source + '/pug/views/about.pug'
     }),
     new HtmlWebpackPlugin({
       filename: 'tovar.link.html',
