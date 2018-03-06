@@ -1,47 +1,105 @@
-<!doctype html>
-<html lang='en'>
+<!DOCTYPE html>
+<html>
   <head>
-    <meta charset='utf-8'>
-    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-    <title>headmade</title>
-    <meta content='' name='description'>
-    <meta content='' name='keywords'>
-    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
-    <link href='favicon.ico' rel='shortcut icon'>
-    <link href="/stylesheets/index-44aa108c.css" rel="stylesheet" type="text/css" />
-  </head>
+    <meta charset="utf-8">
+    <title>Главная
+    </title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href="bundle.css" rel="stylesheet"></head>
   <body>
-    <div id='content'>
-      <div id='head'>
-        <img src="/images/brain-eadb50fd.png" />
+    <header class="header">
+      <div class="row">
+        <div class="columns">
+          <nav class="header__nav">
+            <div class="nav__logo"><a class="nav__linkLogo" href="/"><img src="source/images/headmade.png"></a></div>
+            <ul class="nav__list">
+              <li class="nav__item"><a class="nav__link" href="/projects.html">Проекты</a></li>
+              <li class="nav__item"><a class="nav__link" href="/contacts.html">Контакты</a></li>
+              <li class="nav__item"><a class="nav__link" href="/aboutUs.html">О нас</a></li>
+            </ul>
+            <div class="hamburger-wrapper">
+              <button class="c-hamburger c-hamburger--htx"><span>toggle men</span></button>
+            </div>
+          </nav>
+        </div>
       </div>
-      <div id='head_shadow'>
-        <img src="/images/head_shadow-b01b88c2.png" />
-      </div>
-      <div id='footer'>
-        <h1>Headmade</h1>
-        <h2>
-          г. Казань, ул.Московская, д.22
-        </h2>
-        <h2>
-          +7(843)259-99-23
-        </h2>
-        <h2>
-          <a href='mailto:info@headmade.pro'>
-            info@headmade.pro
-          </a>
-        </h2>
-        <h3>
-          <br>
-          Разработка:
-          <a href='https://tovar.link'>
-            Tovar.Link
-          </a>
-        </h3>
+    </header>
+    <main class="myMain">
+<section class="head__wrapper">
+  <div class="row">
+    <div class="columns">
+      <div class="head">
+        <div class="head__img"><img src="source/images/brain.png"></div>
+        <div class="head__shadow"><img src="source/images/head_shadow.png"></div>
+        <div class="mouse mouseIndex">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28.375" height="70.375" viewBox="0 0 34.375 80.375" id="mouse">
+            <path id="mouse-scroll" d="M32.927,37.933c0,6.972-5.652,12.625-12.625,12.625h-6.333C6.997,50.558,1.344,44.905,1.344,37.933V13.917  c0-6.972,5.652-12.625,12.625-12.625l6.333,0c6.973,0,12.625,5.653,12.625,12.625V37.933zM19.198,15.125c0,1.104-0.895,2-2,2h-0.125c-1.104,0-2-0.896-2-2V9.166c0-1.104,0.896-2,2-2h0.125c1.105,0,2,0.896,2,2V15.125zM17.136 7.166 L17.166 1.437zM17.136 17.125 L17.136 23.208z"></path>
+            <polyline id="arrow1" points="26.948,58.5 17.136,68.313   7.323,58.5 "></polyline>
+            <polyline id="arrow2" points="26.948,65.25 17.136,75.063   7.323,65.25 "></polyline>
+          </svg>
+        </div>
       </div>
     </div>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-    <script src="/javascripts/application-a0d9f9c1.js" type="text/javascript"></script>
-    <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter25441691 = new Ya.Metrika({id:25441691, webvisor:true, clickmap:true, trackLinks:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/25441691" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
-  </body>
+  </div>
+</section>
+<section class="expertise__wrapper">
+  <div class="row">
+    <div class="columns">
+      <div class="expertise">
+        <h2 class="h2">Наши компетенции</h2>
+        <h3 class="h3">Development done right</h3>
+        <ul class="card__list">
+          <li class="card__item">
+            <div class="card__img"><img src="source/images/strategy.svg"></div>
+            <h3 class="item__caption">Аналитика и проектирование</h3>
+            <p class="item__text">Workshops, research, business strategy и project management</p>
+          </li>
+          <li class="card__item">
+            <div class="card__img"><img src="source/images/design.svg"></div>
+            <h3 class="item__caption">UX & UI Design</h3>
+            <p class="item__text">User Experience and User Interface Design</p>
+          </li>
+          <li class="card__item">
+            <div class="card__img"><img src="source/images/development.svg"></div>
+            <h3 class="item__caption">Разработка</h3>
+            <p class="item__text">web- и мобильные приложения и системы, автоматизация бизнес-процессов</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="contactUs__wrapper">
+  <div class="row">
+    <div class="columns">
+      <div class="contactUs">
+        <h2 class="h2">Напишите нам</h2>
+        <h3 class="h3">Расскажите о своей цели/проблеме - и мы предложим оптимальный смособ её достижения/решения</h3><a class="btn">Рассказать</a>
+      </div>
+    </div>
+  </div>
+</section>
+    </main>
+    <footer class="footer">
+      <div class="row">
+        <div class="columns">
+          <nav class="footer__nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a class="nav__link logo-img" href="/"><img src="source/images/brain.png"></a></li>
+              <li class="nav__item"><a class="nav__link" href="/projects.html">Проекты</a>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="/contacts.html">Контакты</a>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="/aboutUs.html">О нас</a>
+              </li>
+            </ul>
+            <p class="nav__coop">Copyright © 2011 - 2018 HeadMade</p>
+          </nav>
+        </div>
+      </div>
+    </footer><!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter25441691 = new Ya.Metrika({id:25441691, webvisor:true, clickmap:true, trackLinks:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/25441691" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+  <script type="text/javascript" src="index.js"></script></body>
 </html>
