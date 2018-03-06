@@ -46,6 +46,11 @@ module.exports = {
       chunks: ['index'],
       template: PATHS.source + '/pug/views/flowers.kzn.pug'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'aliposter.html',
+      chunks: ['index'],
+      template: PATHS.source + '/pug/views/aliposter.pug'
+    }),
     new ExtractTextPlugin('bundle.css')
   ],
   module: {
