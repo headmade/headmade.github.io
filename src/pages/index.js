@@ -1,9 +1,8 @@
 import React from 'react'
+import AirHead from '../components/AirHead'
 
 const IndexPage = () => (
-  <div>
-    9
-  </div>
+  <AirHead />
 )
 
 export default IndexPage
