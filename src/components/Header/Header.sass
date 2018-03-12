@@ -22,11 +22,6 @@ nav.header__nav
       display: none
     .nav__item
       padding: 0 20px
-      &.active .nav__link
-        color: #28c23e
-        cursor: default
-        &:after
-          transform: translate(-50%,0) scaleX(1)
       & .nav__link
         @include font()
         text-transform: uppercase
@@ -48,6 +43,11 @@ nav.header__nav
           content: ''
           transform: translate(-50%,0) scaleX(0)
           transition: transform .4s cubic-bezier(.215,.61,.355,1)
+        &.active
+          color: #28c23e
+          cursor: default
+          &:after
+            transform: translate(-50%,0) scaleX(1)
 
   .nav__logo
     margin-right: auto

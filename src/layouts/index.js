@@ -30,9 +30,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header linkList={linkList} />
-    <main className="myMain">
-      {children()}
-    </main>
+    {children()}
     <Footer linkList={linkList} />
   </div>
 )

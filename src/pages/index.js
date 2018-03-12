@@ -4,11 +4,11 @@ import Expertise from '../components/Expertise'
 import ContactUs from '../components/ContactUs'
 
 const IndexPage = () => (
-  <div>
+  <main className="myMain">
     <AirHead />
     <Expertise />
     <ContactUs />
-  </div>
+  </main>
 )
 
 export default IndexPage
