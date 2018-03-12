@@ -5,7 +5,7 @@ import toggleOpen from '../../decorators/toggleOpen'
 import Logo from './headmade.png'
 import './Header.sass'
 
-const Header = ({headerList, isOpen, toggleOpen}) => (
+const Header = ({linkList, isOpen, toggleOpen}) => (
   <header className='header'>
     <div className='row'>
       <div className='columns'>
@@ -16,10 +16,10 @@ const Header = ({headerList, isOpen, toggleOpen}) => (
             </Link>
           </div>
           <ul className={`nav__list ${isOpen ? 'nav__list--active' : ''}`}>
-            {headerList.map(headerItem =>
-              <li className="nav__item">
-                <Link className="nav__link" to={headerItem.linkPath}>
-                  {headerItem.linkName}
+            {linkList.map(linkItem =>
+              <li key={linkItem.linkKey} className="nav__item">
+                <Link className="nav__link" to={linkItem.linkPath}>
+                  {linkItem.linkName}
                 </Link>
               </li>
             )}
