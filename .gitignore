@@ -1,6 +1,12 @@
-/tmp
-/build
-node_modules/
+# Project dependencies
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+.cache
+node_modules
+yarn-error.log
+
+# Build directory
+/public
+.idea
 .DS_Store
 .bundle
-.idea/
+/tmp
