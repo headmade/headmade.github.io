@@ -5,14 +5,8 @@
  * Licensed under MIT Open Source
  */
 
-// Dependencies
-@import '../_vendor/normalize-scss/sass/normalize';
-@import '../_vendor/sassy-lists/stylesheets/helpers/missing-dependencies';
-@import '../_vendor/sassy-lists/stylesheets/helpers/true';
-@import '../_vendor/sassy-lists/stylesheets/functions/purge';
-@import '../_vendor/sassy-lists/stylesheets/functions/remove';
-@import '../_vendor/sassy-lists/stylesheets/functions/replace';
-@import '../_vendor/sassy-lists/stylesheets/functions/to-list';
+@import '~normalize.css/normalize.css';
+@import '~foundation-sites/_vendor/normalize-scss/sass/_normalize';
 
 // Settings
 // import your own `settings` here or
@@ -20,16 +14,16 @@
 //@import 'settings/settings';
 
 // Sass utilities
-@import 'util/util';
+@import '~foundation-sites/scss/util/util';
 
 // Global variables and styles
-@import 'global';
+@import '~foundation-sites/scss/global';
 
 // Components
-@import 'grid/grid';
-@import 'typography/typography';
+@import '~foundation-sites/scss/grid/grid';
+@import '~foundation-sites/scss/typography/typography';
 // @import 'forms/forms';
-@import 'components/visibility';
+@import '~foundation-sites/scss/components/visibility';
 // @import 'components/float';
 //@import 'components/button';
 //@import 'components/button-group';
@@ -43,7 +37,7 @@
 // @import 'components/drilldown';
 // @import 'components/dropdown-menu';
 // @import 'components/dropdown';
-@import 'components/flex';
+@import '~foundation-sites/scss/components/flex';
 // @import 'components/responsive-embed';
 // @import 'components/label';
 // @import 'components/media-object';
@@ -112,15 +106,15 @@
 @import './settings/button';
 @import './settings/hamburger';
 
-@import './components/header';
-@import './components/card';
-@import './components/footer';
-@import './components/head';
-@import './components/expertise';
-@import './components/contactsUs';
-@import './components/aboutCards';
-@import './components/about';
-@import './components/contacts';
-@import './components/projects';
-@import './components/project';
-@import './components/breadcrumbs';
+//@import './components/header';
+//@import './components/card';
+//@import './components/footer';
+//@import './components/head';
+//@import './components/expertise';
+//@import './components/contactsUs';
+//@import './components/aboutCards';
+//@import './components/about';
+//@import './components/contacts';
+//@import './components/projects';
+//@import './components/project';
+//@import './components/breadcrumbs';
