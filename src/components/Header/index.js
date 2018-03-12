@@ -18,7 +18,7 @@ const Header = ({linkList, isOpen, toggleOpen}) => (
           <ul className={`nav__list ${isOpen ? 'nav__list--active' : ''}`}>
             {linkList.map(linkItem =>
               <li key={linkItem.linkKey} className="nav__item">
-                <Link className="nav__link" to={linkItem.linkPath}>
+                <Link activeClassName='active' className="nav__link" to={linkItem.linkPath}>
                   {linkItem.linkName}
                 </Link>
               </li>
