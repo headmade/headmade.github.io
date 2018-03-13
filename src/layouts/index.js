@@ -22,21 +22,46 @@ const linkList = [
   {linkPath: '/about', linkName: 'О нас', linkKey: 3}
 ]
 
-const TemplateWrapper = ({ children }) => (
-  <div className='generalWrapper'>
-    <Helmet
-      title="Gatsby Default Starter"
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
-      link={[{ rel: 'icon', href: favicon }]}
-    />
-    <Header linkList={linkList} />
-    {children()}
-    <Footer linkList={linkList} />
-  </div>
-)
+
+
+
+class TemplateWrapper extends React.Component {
+
+  componentDidMount() {
+    window.addEventListener('wheel', this.scrollHidden);
+    window.addEventListener('scroll', this.scrollHidden);
+  }
+
+  componentWillUnmount(){
+    window.removeEventListener('wheel', this.scrollHidden);
+    window.removeEventListener('scroll', this.scrollHidden);
+  }
+
+  scrollHidden = () => {
+    const header = document.querySelector(".header")
+    header.classList.add("active")
+    setTimeout(()=>header.classList.remove("active"), 4000)
+  }
+
+  render() {
+    const {children} = this.props
+    return (
+      <div className='generalWrapper'>
+        <Helmet
+          title="HeadMade"
+          meta={[
+            { name: 'description', content: 'Sample' },
+            { name: 'keywords', content: 'sample, something' },
+          ]}
+          link={[{ rel: 'icon', href: favicon }]}
+        />
+        <Header linkList={linkList} />
+        {children()}
+        <Footer linkList={linkList} />
+      </div>
+    )
+  }
+}
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func,
