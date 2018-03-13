@@ -8,9 +8,11 @@
   right: 50%
   transform: translateX(50%)
   width: 60px
+  height: 70px
   margin-top: -41px
   text-align: center
   cursor: pointer
+  transition: all .5s ease
   & svg
     fill: none
     stroke: #9a9a9a
@@ -22,3 +24,5 @@
       animation: arrows .7s infinite, arrow_intro 2.25s forwards
     & polyline + polyline
       animation-delay: .1s!important
+  &:hover path
+    fill: aliceblue

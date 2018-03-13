@@ -1,6 +1,5 @@
-const AnimateScroll = ({param, selector='body'}) => {
+const AnimateScroll = (param, selector) => {
   const imgL = document.querySelector(selector)
-  console.log('---', imgL)
   const start = imgL.scrollTop
   const end = imgL.scrollHeight
   const change = end - start

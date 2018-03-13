@@ -13,6 +13,7 @@ import '../style/general.scss'
 import '../fonts/pfagoraslabpro-bold.ttf'
 import '../fonts/pfagoraslabpro-medium.ttf'
 import '../fonts/pfagoraslabpro-thin.ttf'
+import favicon from '../favicon.ico'
 
 const linkList = [
   {linkPath: '/projects', linkName: 'Проекты', linkKey: 1},
@@ -28,6 +29,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
+      link={[{ rel: 'icon', href: favicon }]}
     />
     <Header linkList={linkList} />
     {children()}

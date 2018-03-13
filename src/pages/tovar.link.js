@@ -3,6 +3,8 @@ import Link from 'gatsby-link'
 import MouseScroll from '../components/MouseScroll/index'
 
 import desktop from '../images/projects/tovar.link/tovar.link__desktop.png'
+import tablet from '../images/projects/tovar.link/tovar.link__tablet.png'
+import phone from '../images/projects/tovar.link/tovar.link__phone.png'
 import lending from '../images/projects/tovar.link/Tovar.Link__lp.png'
 
 const TovarLink = () => (
@@ -94,8 +96,8 @@ const TovarLink = () => (
                 <div className="monitor__stand-bot" />
                 <div className="monitor__img-wrapper">
                   <img src={desktop} alt="desktop" className="monitor__img monitor__img--desktop"/>
-                  <img src={desktop} alt="desktop" className="monitor__img monitor__img--tablet"/>
-                  <img src={desktop} alt="desktop" className="monitor__img monitor__img--phone"/>
+                  <img src={tablet} alt="tablet" className="monitor__img monitor__img--tablet"/>
+                  <img src={phone} alt="phone" className="monitor__img monitor__img--phone"/>
                 </div>
               </div>
             </div>
