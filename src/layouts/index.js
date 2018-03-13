@@ -58,6 +58,7 @@ class TemplateWrapper extends React.Component {
         <Header linkList={linkList} />
         {children()}
         <Footer linkList={linkList} />
+
       </div>
     )
   }

@@ -3175,6 +3175,12 @@ gatsby-plugin-sass@^1.0.21:
     sass-loader "^4.1.1"
     webpack "^1.13.3"
 
+gatsby-plugin-yandex-metrika@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-yandex-metrika/-/gatsby-plugin-yandex-metrika-1.0.5.tgz#299c12d6e98f26401f145b3d925967ba617effd7"
+  dependencies:
+    react "^15.6.1"
+
 gatsby-react-router-scroll@^1.0.13:
   version "1.0.13"
   resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-1.0.13.tgz#d1cfd43c334497ad174ae9409c24bb5d4dcda3aa"
@@ -6516,7 +6522,7 @@ react-side-effect@^1.1.0:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
 
-react@^15.6.0:
+react@^15.6.0, react@^15.6.1:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/react/-/react-15.6.2.tgz#dba0434ab439cfe82f108f0f511663908179aa72"
   dependencies:
