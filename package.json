@@ -21,7 +21,7 @@
     "gatsby"
   ],
   "scripts": {
-    "deploy": "gatsby build && gh-pages -b master -d public",
+    "deploy": "gatsby build && cp ./src/CNAME public && gh-pages -b master -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
