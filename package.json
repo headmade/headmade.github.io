@@ -1,14 +1,16 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "headmade.pro",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "main": "index.js",
+  "repository": "https://github.com/headmade/headmade.github.io.git",
+  "author": "Headmade",
+  "license": "MIT",
   "dependencies": {
     "foundation-sites": "^6.4.4-rc1",
     "gatsby": "^1.9.223",
     "gatsby-link": "^1.6.38",
     "gatsby-plugin-react-helmet": "^2.0.6",
-    "gatsby-plugin-sass": "^1.0.20",
+    "gatsby-plugin-sass": "^1.0.21",
     "normalize.css": "^8.0.0",
     "react-helmet": "^5.2.0"
   },

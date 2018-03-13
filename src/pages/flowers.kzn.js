@@ -7,6 +7,8 @@ import AnimateScroll from '../javascripts/AnimateScroll'
 import MouseScroll from '../components/MouseScroll/index'
 
 import desktop from '../images/projects/flowers.kzn/flowers.kzn__desktop.png'
+import tablet from '../images/projects/flowers.kzn/flowers.kzn__tablet.png'
+import phone from '../images/projects/flowers.kzn/flowers.kzn__phone.png'
 import lending from '../images/projects/flowers.kzn/flowers.kzn__lp.png'
 
 
@@ -104,8 +106,8 @@ class FlowersKzn extends React.Component {
                     <div className="monitor__stand-bot" />
                     <div className="monitor__img-wrapper">
                       <img src={desktop} alt="desktop" className="monitor__img monitor__img--desktop"/>
-                      <img src={desktop} alt="desktop" className="monitor__img monitor__img--tablet"/>
-                      <img src={desktop} alt="desktop" className="monitor__img monitor__img--phone"/>
+                      <img src={tablet} alt="tablet" className="monitor__img monitor__img--tablet"/>
+                      <img src={phone} alt="phone" className="monitor__img monitor__img--phone"/>
                     </div>
                   </div>
                 </div>
