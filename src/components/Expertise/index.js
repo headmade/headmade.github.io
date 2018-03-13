@@ -19,14 +19,14 @@ const Expertise = () => (
                 <img src={strategy} alt="strategy"/>
               </div>
               <h3 className="item__caption">Аналитика и проектирование</h3>
-              <p className="item__text">Workshops, research, business strategy и project management</p>
+              <p className="item__text">Исследование, оптимизация и автоматизация бизнес-процессов, управление проектами</p>
             </li>
             <li className="card__item">
               <div className="card__img">
                 <img src={design} alt="design"/>
               </div>
               <h3 className="item__caption">UX & UI Design</h3>
-              <p className="item__text">User Experience and User Interface Design</p>
+              <p className="item__text">Дизайн User Experience и пользовательских интерфейсов</p>
             </li>
             <li className="card__item">
               <div className="card__img">
