@@ -10,11 +10,19 @@ footer.footer
 nav.footer__nav
   display: flex
   flex-wrap: wrap
+  @include xsmall
+    justify-content: center
   & .nav__list
     display: flex
     flex-wrap: wrap
+    @include xsmall
+      justify-content: center
     & .nav__item
       padding: 0 20px
+      &:first-child
+        @include xsmall
+          width: 100%
+          text-align: center
       & .nav__link
         @include font($general-ff-pfagoraslabpro, $general-font-weight, 18px, #676767)
         display: block
@@ -39,3 +47,5 @@ nav.footer__nav
     margin-bottom: 0
     @include small
       margin-left: 20px
+    @include xsmall
+      margin: 0 auto
