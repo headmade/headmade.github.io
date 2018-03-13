@@ -28,19 +28,20 @@ const linkList = [
 class TemplateWrapper extends React.Component {
 
   componentDidMount() {
-    window.addEventListener('wheel', this.scrollHidden);
-    window.addEventListener('scroll', this.scrollHidden);
+    window.addEventListener('scroll', this.scrollHidden)
   }
 
   componentWillUnmount(){
-    window.removeEventListener('wheel', this.scrollHidden);
-    window.removeEventListener('scroll', this.scrollHidden);
+    window.removeEventListener('scroll', this.scrollHidden)
   }
 
   scrollHidden = () => {
     const header = document.querySelector(".header")
-    header.classList.add("active")
-    setTimeout(()=>header.classList.remove("active"), 4000)
+    if(window.pageYOffset > 100){
+      header.classList.add("active")
+    }else{
+      header.classList.remove("active")
+    }
   }
 
   render() {
@@ -58,7 +59,6 @@ class TemplateWrapper extends React.Component {
         <Header linkList={linkList} />
         {children()}
         <Footer linkList={linkList} />
-
       </div>
     )
   }
