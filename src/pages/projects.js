@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 import tovarLink from '../images/projects/tovar.link/tovar.link__desktop.png'
 import flowersKzn from '../images/projects/flowers.kzn/flowers.kzn__desktop.png'
 
-const projects = [
+const projectsList = [
   {
     key: 1, img: tovarLink, name: "Tovar.link", path: '/tovar.link',
     info: 'Всё просто! Проект даёт простым людям возможность монетизировать простой и любимый процесс - шаринг ссылок в соц.сетях, а комиссия за покупки друзей по этим ссылкам просто приходит на мобильный телефон.'
@@ -23,7 +23,7 @@ const Projects = () => (
           <div className="projects">
             <h1 className="h1">Проекты</h1>
             <ul className="projects__list">
-              {projects.map(project =>
+              {projectsList.map(project =>
                 <li key={project.key} className="list__item">
                   <div className="columns large-6 small-12">
                     <div className="monitor-block">

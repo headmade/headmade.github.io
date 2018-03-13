@@ -6,6 +6,7 @@ import desktop from '../images/projects/tovar.link/tovar.link__desktop.png'
 import tablet from '../images/projects/tovar.link/Tovar.Link__tablet.png'
 import phone from '../images/projects/tovar.link/Tovar.Link__phone.png'
 import lending from '../images/projects/tovar.link/Tovar.Link__lp.png'
+
 import AnimateScroll from "../javascripts/AnimateScroll";
 import MonitorBtns from "../javascripts/MonitorBtns";
 
