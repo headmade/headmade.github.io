@@ -5,8 +5,8 @@
       "path---tovar-link-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-7682ed21aa82d31562e1.js",
-      "component---src-pages-index-js-7682ed21aa82d31562e1.js.map"
+      "component---src-pages-index-js-c6f6bfa864b62e5fcffb.js",
+      "component---src-pages-index-js-c6f6bfa864b62e5fcffb.js.map"
     ],
     "path---contacts": [
       "path---contacts-a0e39f21c11f6a62c5ab.js",
@@ -21,8 +21,8 @@
       "path---projects-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-6725ed2d7935055d3e32.js",
-      "component---src-layouts-index-js-6725ed2d7935055d3e32.js.map"
+      "component---src-layouts-index-js-5cdf92f56c382372bde9.js",
+      "component---src-layouts-index-js-5cdf92f56c382372bde9.js.map"
     ],
     "component---src-pages-contacts-js": [
       "component---src-pages-contacts-js-d42c392da4e7d6dda594.js",
@@ -40,6 +40,10 @@
       "commons-480ab81d4c9d9b68eedb.js",
       "commons-480ab81d4c9d9b68eedb.js.map"
     ],
+    "component---src-templates-projects-template-js": [
+      "component---src-templates-projects-template-js-da627bfbc6df5480b12f.js",
+      "component---src-templates-projects-template-js-da627bfbc6df5480b12f.js.map"
+    ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
@@ -49,8 +53,12 @@
       "component---src-pages-projects-js-671abc25838986584720.js.map"
     ],
     "app": [
-      "app-3f02ba92ffc1f658eb7d.js",
-      "app-3f02ba92ffc1f658eb7d.js.map"
+      "app-145654c48fad2b3dd674.js",
+      "app-145654c48fad2b3dd674.js.map"
+    ],
+    "path---blog-my-first-post": [
+      "path---blog-my-first-post-cc1518f1ed83192e719c.js",
+      "path---blog-my-first-post-cc1518f1ed83192e719c.js.map"
     ],
     "component---src-pages-flowers-kzn-js": [
       "component---src-pages-flowers-kzn-js-77f26254c191e99439f9.js",
