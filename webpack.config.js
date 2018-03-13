@@ -63,6 +63,8 @@ module.exports = {
       { from: 'CNAME' },
       { from: 'source/favicon.ico', to: 'favicon.ico' },
       { from: 'source/robots.txt', to: 'robots.txt' },
+      { from: 'source/downloads', to: 'downloads' },
+      { from: 'source/fonts', to: 'source/fonts' },
     ]),
     new GhPagesWebpackPlugin({
         path: 'build',
