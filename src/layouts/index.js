@@ -27,22 +27,6 @@ const linkList = [
 
 class TemplateWrapper extends React.Component {
 
-  componentDidMount() {
-    window.addEventListener('scroll', this.scrollHidden)
-  }
-
-  componentWillUnmount(){
-    window.removeEventListener('scroll', this.scrollHidden)
-  }
-
-  scrollHidden = () => {
-    const header = document.querySelector(".header")
-    if(window.pageYOffset > 100){
-      header.classList.add("active")
-    }else{
-      header.classList.remove("active")
-    }
-  }
 
   render() {
     const {children} = this.props
