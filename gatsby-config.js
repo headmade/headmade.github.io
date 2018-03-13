@@ -13,5 +13,13 @@ module.exports = {
         trackHash: true
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/projects`,
+        name: "markdown-pages",
+      },
+    },
+    `gatsby-transformer-remark`
   ],
 };
