@@ -2,27 +2,33 @@
 @import '../settings/mixin'
 @import '../settings/media'
 
+$card__width: 250px
+
+$card-img__width: 70px
+$card-img__height: $card-img__width
+
 .card__list
   display: flex
   justify-content: space-around
   flex-wrap: wrap
-  margin-top: 60px
   width: 100%
   & .card__item
     display: flex
     flex-direction: column
     align-items: center
     text-align: center
-    max-width: 250px
-    min-width: 250px
-    margin: 10px
+    max-width: $card__width
+    min-width: $card__width
+    margin: $general-margin/8
     & .card__img
-      width: 70px
-      height: 70px
-      margin-bottom: 30px
+      width: $card-img__width
+      height: $card-img__height
+      margin-bottom: $general-margin/4
       & img
         @include img()
     & .item__caption
-      @include font($general-ff-pfagoraslabpro, $general-font-weight-bold, 26px, #1d2738)
+      @include font($general-ff-pfagoraslabpro, $general-font-weight-bold, 26px, color('text','darker'), $general-font-line-height*1.5)
+      margin-bottom: $general-margin/8
     & .item__text
-      @include font($general-ff-pfagoraslabpro, $general-font-weight, 16px, #676767)
+      @include font($general-ff-pfagoraslabpro, $general-font-weight, 16px, color('text','light'))
+      margin: 0

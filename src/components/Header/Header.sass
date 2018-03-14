@@ -8,7 +8,7 @@ header.header
   top: 0
   z-index: 10
   width: 100%
-  background-color: #fff
+  background-color: color("white")
   transition: all .8s ease
   &:hover
     top: 0
@@ -31,7 +31,7 @@ nav.header__nav
         position: relative
         transition: color .4s ease
         &:hover, &:focus
-          color: #28c23e
+          color: color("primary")
           &:after
             transform: translate(-50%,0) scaleX(1)
         &:after
@@ -40,12 +40,12 @@ nav.header__nav
           left: 50%
           width: calc(100% + 20px)
           height: 3px
-          background-color: #28c23e
+          background-color: color("primary")
           content: ''
           transform: translate(-50%,0) scaleX(0)
           transition: transform .4s cubic-bezier(.215,.61,.355,1)
         &.active
-          color: #28c23e
+          color: color("primary")
           cursor: default
           &:after
             transform: translate(-50%,0) scaleX(1)
@@ -55,7 +55,7 @@ nav.header__nav
       position: absolute
       top: 69px
       left: 0
-      background: white
+      background: color("white")
       box-shadow: 0 0 15px 0 rgba(0,0,0,.1)
 
   & .nav__logo

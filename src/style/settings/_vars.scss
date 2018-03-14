@@ -3,49 +3,25 @@ $general-ff-pfagoraslabpro: "pfagoraslabpro", Helvetica, Arial, sans-serif;
 
 $general-font-size: 16px;
 
-$general-font-line-height: 25px;
+$general-font-line-height: 20px;
 
 $general-font-weight: normal;
 $general-font-weight-bold: bold;
 $general-font-weight-light: 200;
 
-$general-vertical-step-smallXX: 5px;
-$general-vertical-step-smallX: 10px;
-$general-vertical-step-small: 15px;
-$general-vertical-step-normal: 20px;
-$general-vertical-step-large: 25px;
-$general-vertical-step-largeX: 30px;
-$general-vertical-step-largeXX: 35px;
-$general-vertical-step-largeXXX: 50px;
+$general-margin: 80px;
+$header-height: 70px;
 
 $general-transition: all .4s ease;
 $general-border-radius: 4px;
 
-//  Стилеобразующие элементы услуг
-$familyAndChildren: #5bbdbd;
-$transportAndDriving: #2d7daf;
-$passportAndRegistration: #c22253;
-$taxesAndFinances: #882b80;
-$apartmentAndLand: #008e64;
-$pensionAndBenefits: #60bc46;
-$business: #75808b;
-$education: #f5831f;
-
-$color-steps-theme: (transportAndDriving: $transportAndDriving, primary: #6ba9d2);
 
 //color
 $scotch-color-key: 'base' !default;
 
 $primary: #28c23e; //первичный-основной
-$secondary: #e6f4fc; //вторичный
+$secondary: #fafafa; //вторичный
 $accent: #e90e3f; //акцент-ударение
-$shadowForm: #bfe5ff;
-
-$section-1: #28a9b1;
-$section-5: #b40037;
-$section-3: #2d7daf;
-$section-4: #119142;
-$section-2: #75136e;
 
 $danger: #d9534f;
 $warning: #f0ad4e;
@@ -54,11 +30,6 @@ $info: #9dd6fd;
 $general-opacity: ( 'darker': 0.8, 'dark': 0.6, 'light': 0.4, 'lighter': 0.2);
 $text-base: #000000;
 $general-pallet: (
-  'shadowForm': (
-    'base': $shadowForm,
-    'dark': mix(black, $shadowForm, 30%),
-    'light': mix(white, $shadowForm, 30%),
-  ),
   'info': (
     'base': $info,
     'dark': mix(black, $info, 30%),

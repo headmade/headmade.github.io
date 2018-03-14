@@ -2,11 +2,19 @@
 @import '../../style/settings/mixin'
 @import '../../style/settings/media'
 
+$head-bg__color: color("secondary")
+$head__width: 198px
+$head__height: 236px
+$head__margin-bottom: $general-margin
+
+$head-shadow__width: 288px
+$head-shadow__height: 30px
+
 .head__wrapper
   display: flex
   flex-direction: column
   justify-content: center
-  background-color: #fafafa
+  background-color: $head-bg__color
   height: 100vh
   & .head
     display: flex
@@ -14,16 +22,16 @@
     align-items: center
     & .head__img
       display: block
-      width: 198px
-      height: 236px
-      margin-bottom: 80px
+      width: $head__width
+      height: $head__height
+      margin-bottom: $head__margin-bottom
       animation: airHead 8s ease infinite alternate
       & img
         @include img()
     & .head__shadow
       display: block
-      width: 288px
-      height: 30px
+      width: $head-shadow__width
+      height: $head-shadow__height
       animation: shadowHead 8s ease infinite alternate
       & img
         @include img()
@@ -37,14 +45,14 @@
   0%, 100%
     transform: translate(0, 0)
   50%
-    transform: translate(0, 15px)
+    transform: translate(0, 20px)
   100%
-    transform: translate(0, -15px)
+    transform: translate(0, -20px)
 
 @keyframes shadowHead
   0%, 100%
     transform: scale(0.5)
   50%
-    transform: scale(1.5)
+    transform: scale(2)
   100%
     transform: translate(0.5)

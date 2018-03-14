@@ -2,7 +2,7 @@ import React from "react";
 import Link,{withPrefix} from 'gatsby-link'
 
 import monitorBtns from '../javascripts/monitorBtns'
-import AnimateScroll from '../javascripts/AnimateScroll'
+import animateScroll from '../javascripts/animateScroll'
 import MouseScroll from '../components/MouseScroll/index'
 
 export default function Template({data}) {
@@ -17,7 +17,7 @@ export default function Template({data}) {
               <div className="project__lending-img">
                 <img src={withPrefix(frontmatter.longDesktopImg)} alt="longDesktopImg"/>
               </div>
-              <div onClick={()=>AnimateScroll(3000, ".project__lending-img")}>
+              <div onClick={()=>animateScroll(4000, ".project__lending-img")}>
                 <MouseScroll />
               </div>
             </div>

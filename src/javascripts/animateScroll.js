@@ -1,4 +1,4 @@
-const AnimateScroll = (param, selector) => {
+const animateScroll = (param, selector) => {
   const imgL = document.querySelector(selector)
   const start = imgL.scrollTop
   const end = imgL.scrollHeight
@@ -27,4 +27,4 @@ const AnimateScroll = (param, selector) => {
   animate(0)
 }
 
- export default AnimateScroll
+ export default animateScroll

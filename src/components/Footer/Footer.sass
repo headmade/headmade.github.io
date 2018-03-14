@@ -3,9 +3,9 @@
 @import '../../style/settings/media'
 
 footer.footer
-  border-top: 1px solid #e9ecee
+  border-top: 1px solid color("secondary", "dark", "light")
   width: 100%
-  background-color: #fff
+  background-color: color("white")
 
 nav.footer__nav
   display: flex
@@ -24,15 +24,15 @@ nav.footer__nav
           width: 100%
           text-align: center
       & .nav__link
-        @include font($general-ff-pfagoraslabpro, $general-font-weight, 18px, #676767)
+        @include font($general-ff-pfagoraslabpro, $general-font-weight, 18px, color('text','light'))
         display: block
-        padding: 20px 0
+        padding: 25px 0
         position: relative
-        transition: color .4s ease
+        transition: $general-transition
         &:hover, &:focus
-          color: #28c23e
+          color: color("primary")
         &.active
-          color: #28c23e
+          color: color("primary")
           cursor: default
         &.logo-img
           padding: 14px 0
@@ -41,8 +41,8 @@ nav.footer__nav
             height: 42px
 
   & .nav__coop
-    padding: 20px 0
-    @include font($general-ff-pfagoraslabpro, $general-font-weight-light, 18px, #676767)
+    padding: 25px 0
+    @include font($general-ff-pfagoraslabpro, $general-font-weight-light, 18px, color('text','light'))
     margin-left: auto
     margin-bottom: 0
     @include small
