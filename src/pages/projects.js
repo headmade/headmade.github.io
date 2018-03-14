@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import tovarLink from '../images/projects/tovar.link/tovar.link__desktop.png'
-import flowersKzn from '../images/projects/flowers.kzn/flowers.kzn__desktop.png'
+import tovarLink from '../../static/images/projects/tovar.link/desktop.png'
+import flowersKzn from '../../static/images/projects/flowers.kzn/desktop.png'
 
 const projectsList = [
   {
