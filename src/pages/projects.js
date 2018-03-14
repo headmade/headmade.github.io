@@ -1,58 +1,69 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import tovarLink from '../../static/images/projects/tovar.link/desktop.png'
-import flowersKzn from '../../static/images/projects/flowers.kzn/desktop.png'
-
-const projectsList = [
-  {
-    key: 1, img: tovarLink, name: "Tovar.link", path: '/tovar.link',
-    info: 'Всё просто! Проект даёт простым людям возможность монетизировать простой и любимый процесс - шаринг ссылок в соц.сетях, а комиссия за покупки друзей по этим ссылкам просто приходит на мобильный телефон.'
-  },
-  {
-    key: 2, img: flowersKzn, name: "flowers.kzn", path: '/flowers.kzn',
-    info: 'Проект для проведения конкурсов и голосований среди граждан на примере "цветочного фестиваля" в г.Казань.'
-  }
-]
-
-const Projects = () => (
-  <main className="myMain">
-    <section className="projects__wrapper">
-      <div className="row">
-        <div className="columns">
-          <div className="projects">
-            <h1 className="h1">Проекты</h1>
-            <ul className="projects__list">
-              {projectsList.map(project =>
-                <li key={project.key} className="list__item">
-                  <div className="columns large-6 small-12">
-                    <div className="monitor-block">
-                      <div className="monitor__wrapper">
-                        <div className="monitor desktop">
-                          <div className="monitor__stand" />
-                          <div className="monitor__stand-bot" />
-                          <div className="monitor__img-wrapper">
-                            <img src={project.img} alt={project.name}/>
+const Projects = ({data}) => {
+  const { allMarkdownRemark } = data
+  const { edges } = allMarkdownRemark
+  const allProjects = edges
+  return (
+    <main className="myMain">
+      <section className="projects__wrapper">
+        <div className="row">
+          <div className="columns">
+            <div className="projects">
+              <h1 className="h1">Проекты</h1>
+              <ul className="projects__list">
+                {allProjects.map(project =>
+                  <li key={project.node.frontmatter.order} className="list__item">
+                    <div className="columns large-6 small-12">
+                      <div className="monitor-block">
+                        <div className="monitor__wrapper">
+                          <div className="monitor desktop">
+                            <div className="monitor__stand"/>
+                            <div className="monitor__stand-bot"/>
+                            <div className="monitor__img-wrapper">
+                              <img src={project.node.frontmatter.desktopImg} alt={project.node.frontmatter.title}/>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="columns large-6 small-12">
-                    <div className="info">
-                      <h3 className="info__caption">{project.name}</h3>
-                      <p className="info__text">{project.info}</p>
-                      <Link to={project.path} className="btn">Подробнее</Link>
+                    <div className="columns large-6 small-12">
+                      <div className="info">
+                        <h3 className="info__caption">{project.node.frontmatter.title}</h3>
+                        <p className="info__text">{project.node.frontmatter.description}</p>
+                        <Link to={project.node.frontmatter.path} className="btn">Подробнее</Link>
+                      </div>
                     </div>
-                  </div>
-                </li>
-              )}
-            </ul>
+                  </li>
+                )}
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
-)
+      </section>
+    </main>
+  )
+}
 
+export const pageQuery = graphql`
+ query allProjects{
+      allMarkdownRemark(
+        sort: { order: ASC, fields: [frontmatter___order] }
+        limit: 1000
+      ) {
+        edges {
+          node {
+            frontmatter {
+              path
+              order
+              title
+              description
+              desktopImg
+            }
+          }
+        }
+      }
+    }
+`
 export default Projects

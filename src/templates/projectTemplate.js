@@ -6,8 +6,8 @@ import animateScroll from '../javascripts/animateScroll'
 import MouseScroll from '../components/MouseScroll/index'
 
 export default function Template({data}) {
-  const { markdownRemark } = data; // data.markdownRemark holds our post data
-  const { frontmatter, html } = markdownRemark;
+  const { markdownRemark } = data
+  const { frontmatter, html } = markdownRemark
   return (
     <main className="myMain" >
       <section className="project">
@@ -36,11 +36,11 @@ export default function Template({data}) {
               <h1 className="h1">{frontmatter.title}</h1>
               <hr className="hr" />
               <h3 className="item__caption">Описание</h3>
-              <p className="info__text">{frontmatter.description}</p>
+              <p className="info__text" dangerouslySetInnerHTML={{ __html: html }} />
               <hr className="hr"/>
               <h3 className="item__caption">Наше участие</h3>
               <ul className="info__list">
-                {frontmatter.participation.split(' \ ').map((participation, index) => {
+                {frontmatter.participation.map((participation, index) => {
                   return (
                     <li key={index} className="info__item">
                       <span>{participation}</span>
@@ -56,7 +56,7 @@ export default function Template({data}) {
             <div className="statistics info">
               <h3 className="item__caption">Показатели</h3>
               <ul className="info__list">
-                {frontmatter.statistics.split(' \ ').map((statistic, index) => {
+                {frontmatter.statistics.map((statistic, index) => {
                   return (
                     <li key={index} className="info__item">
                       <span>{statistic}</span>
@@ -67,7 +67,7 @@ export default function Template({data}) {
               <hr className="hr"/>
               <h3 className="item__caption">Технологии</h3>
               <ul className="info__list">
-                {frontmatter.technologies.split(' \ ').map((technology, index) => {
+                {frontmatter.technologies.map((technology, index) => {
                   return (
                     <li key={index} className="info__item">
                       <span>{technology}</span>
@@ -75,7 +75,6 @@ export default function Template({data}) {
                   )
                 })}
               </ul>
-              <div className="project-md" dangerouslySetInnerHTML={{ __html: html }} />
             </div>
           </div>
           <div className="columns large-6 small-12 medium-order-4 small-order-4">

@@ -14,7 +14,7 @@ import '../fonts/pfagoraslabpro-bold.ttf'
 import '../fonts/pfagoraslabpro-medium.ttf'
 import '../fonts/pfagoraslabpro-thin.ttf'
 
-import favicon from '../favicon.ico'
+import favicon from '../../static/favicon.ico'
 
 const linkList = [
   {linkPath: '/projects', linkName: 'Проекты', linkKey: 1},
@@ -22,12 +22,7 @@ const linkList = [
   {linkPath: '/about', linkName: 'О нас', linkKey: 3}
 ]
 
-
-
-
 class TemplateWrapper extends React.Component {
-
-
   render() {
     const {children} = this.props
     return (
