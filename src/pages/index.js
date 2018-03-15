@@ -5,9 +5,9 @@ import ContactUs from '../components/ContactUs'
 
 class IndexPage extends React.Component {
   componentDidMount() {
+    window.addEventListener('scroll', this.scrollHidden)
     const header = document.querySelector(".header")
     header.style.top = "-100px";
-    window.addEventListener('scroll', this.scrollHidden)
   }
 
   componentWillUnmount(){

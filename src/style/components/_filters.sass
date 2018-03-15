@@ -1,0 +1,37 @@
+@import '../settings/vars'
+@import '../settings/mixin'
+@import '../settings/media'
+
+.filtersAction-enter
+  transform: translate(-1500px, 0)
+
+.filtersAction-enter.filtersAction-enter-active
+  transform: translate(0, 0)
+  transition: all .5s ease
+
+.filtersAction-leave
+  transform: translate(0, 0)
+
+.filtersAction-leave.filtersAction-leave-active
+  transform: translate(1500px, 0)
+  transition: all .5s ease
+
+.filters-list
+  display: flex
+  align-items: center
+  justify-content: center
+  margin-bottom: 40px
+  & .filters-item a
+    padding: 5px 20px
+    margin: 0 10px
+    border: 1px solid color("primary")
+    border-radius: 4px
+    cursor: pointer
+    transition: all .4s ease
+    @include font($general-ff-pfagoraslabpro, $general-font-weight, 18px, color('text','darker'))
+    &:hover
+      background-color: color("primary", "light", "lighter")
+    &.active
+      cursor: default
+      background-color: color("primary", "light", "lighter")
+      color: color("primary")

@@ -1,19 +1,31 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from "react";
+import Link from "gatsby-link";
 
-const Projects = ({data}) => {
-  const { allMarkdownRemark } = data
-  const { edges } = allMarkdownRemark
-  const allProjects = edges
-  return (
-    <main className="myMain">
-      <section className="projects__wrapper">
-        <div className="row">
-          <div className="columns">
-            <div className="projects">
-              <h1 className="h1">Проекты</h1>
-              <ul className="projects__list">
-                {allProjects.map(project =>
+const Projects = ({data: { allMarkdownRemark: { edges } }}) => (
+  <main className="myMain">
+    <section className="projects__wrapper">
+      <div className="row">
+        <div className="columns">
+          <div className="projects">
+            <h1 className="h1">Проекты</h1>
+            <ul className="filters-list">
+              <li className="filters-item">
+                <Link activeClassName='active' to="/projects/html-css-sass">
+                  html, css, sass
+                </Link>
+                <Link activeClassName='active' to="/projects/ruby-ruby-on-rails">
+                  ruby, ruby-on-rails
+                </Link>
+                <Link activeClassName='active' to="/projects/javascript-angular">
+                  javascript, angular
+                </Link>
+                <Link activeClassName='active' to="/projects/PostgreSQL-NATS">
+                  PostgreSQL, NATS
+                </Link>
+              </li>
+            </ul>
+            <ul className="projects__list">
+                {edges.map(project =>
                   <li key={project.node.frontmatter.order} className="list__item">
                     <div className="columns large-6 small-12">
                       <div className="monitor-block">
@@ -37,33 +49,42 @@ const Projects = ({data}) => {
                     </div>
                   </li>
                 )}
-              </ul>
-            </div>
+            </ul>
           </div>
         </div>
-      </section>
-    </main>
-  )
-}
+      </div>
+    </section>
+  </main>
+);
+
+
+export default Projects;
 
 export const pageQuery = graphql`
- query allProjects{
-      allMarkdownRemark(
-        sort: { order: ASC, fields: [frontmatter___order] }
-        limit: 1000
-      ) {
-        edges {
-          node {
-            frontmatter {
-              path
-              order
-              title
-              description
-              desktopImg
-            }
+  query TagsQuery {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    allMarkdownRemark(
+      limit: 2000
+    ) {
+      group(field: frontmatter___technologies) {
+        fieldValue
+        totalCount
+      }
+      edges {
+        node {
+          frontmatter {
+            path
+            order
+            title
+            description
+            desktopImg
           }
         }
       }
     }
-`
-export default Projects
+  }
+`;
