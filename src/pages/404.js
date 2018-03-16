@@ -1,9 +1,13 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 
 const NotFoundPage = () => (
   <main className="myMain">
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <Helmet title="NotFoundPage(404)" />
+    <div className="NotFoundPage">
+      <h1 className="h1">Страница не найдена (404).</h1>
+      <p className="p">Вы просто попали в маршрут, который не существует.</p>
+    </div>
   </main>
 )
 

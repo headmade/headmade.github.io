@@ -18,10 +18,6 @@ technologies:
 - html, css, sass
 - ruby, ruby-on-rails
 - angular
-longDesktopImg: "/images/projects/flowers.kzn/longDesktop.png"
-desktopImg: "/images/projects/flowers.kzn/desktop.png"
-tabletImg: "/images/projects/flowers.kzn/tablet.png"
-phoneImg: "/images/projects/flowers.kzn/phone.png"
 ---
 
 Проект для проведения конкурсов и голосований среди граждан на примере \"цветочного фестиваля\" в г. Казань.

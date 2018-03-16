@@ -8,9 +8,9 @@ import './Header.sass'
 class Header extends React.Component {
 
   render() {
-    const {linkList, isOpen, toggleOpen} = this.props
+    const {linkList, isOpen, toggleOpen, location} = this.props
     return (
-      <header className='header' >
+      <header className={`header ${location === '/' ? "index" : ""}`} >
         <div className='row'>
           <div className='columns'>
             <nav className="header__nav">

@@ -1,8 +1,10 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import Directions from '../components/Directions'
 
 const About = () => (
   <main className="myMain">
+    <Helmet title="About" />
     <Directions />
     <section className="about__wrapper">
       <div className="row">

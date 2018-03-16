@@ -1,21 +1,26 @@
 import React from "react";
-import Link,{withPrefix} from 'gatsby-link'
+import Link from 'gatsby-link'
+import Helmet from 'react-helmet'
+
+import MouseScroll from '../components/MouseScroll/index'
 
 import monitorBtns from '../javascripts/monitorBtns'
 import animateScroll from '../javascripts/animateScroll'
-import MouseScroll from '../components/MouseScroll/index'
+import projectImagePath from "../utils/projectImagePath";
+
 
 export default function Template({data}) {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
   return (
     <main className="myMain" >
+      <Helmet title={frontmatter.title} />
       <section className="project">
         <div className="row">
           <div className="columns large-6 small-12 medium-order-2 small-order-2 large-order-1">
             <div className="project__lending">
               <div className="project__lending-img">
-                <img src={withPrefix(frontmatter.longDesktopImg)} alt="longDesktopImg"/>
+                <img src={projectImagePath(frontmatter.longDesktopImg, frontmatter.path, "longDesktop")} alt="longDesktopImg"/>
               </div>
               <div onClick={()=>animateScroll(4000, ".project__lending-img")}>
                 <MouseScroll />
@@ -86,9 +91,9 @@ export default function Template({data}) {
                     <div className="monitor__stand" />
                     <div className="monitor__stand-bot" />
                     <div className="monitor__img-wrapper">
-                      <img src={withPrefix(frontmatter.desktopImg)} alt="desktopImg" className="monitor__img monitor__img--desktop"/>
-                      <img src={withPrefix(frontmatter.tabletImg)} alt="tabletImg" className="monitor__img monitor__img--tablet"/>
-                      <img src={withPrefix(frontmatter.phoneImg)} alt="phoneImg" className="monitor__img monitor__img--phone"/>
+                      <img src={projectImagePath(frontmatter.desktopImg, frontmatter.path, "desktop")} alt="desktopImg" className="monitor__img monitor__img--desktop"/>
+                      <img src={projectImagePath(frontmatter.tabletImg, frontmatter.path, "tablet")} alt="tabletImg" className="monitor__img monitor__img--tablet"/>
+                      <img src={projectImagePath(frontmatter.phoneImg, frontmatter.path, "phone")} alt="phoneImg" className="monitor__img monitor__img--phone"/>
                     </div>
                   </div>
                 </div>

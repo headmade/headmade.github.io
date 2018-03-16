@@ -1,8 +1,12 @@
-import React from "react";
-import Link from "gatsby-link";
+import React from "react"
+import Link from "gatsby-link"
+import Helmet from 'react-helmet'
+
+import projectImagePath from "../utils/projectImagePath"
 
 const Projects = ({data: { allMarkdownRemark: { edges } }}) => (
   <main className="myMain">
+    <Helmet title="projects" />
     <section className="projects__wrapper">
       <div className="row">
         <div className="columns">
@@ -41,40 +45,41 @@ const Projects = ({data: { allMarkdownRemark: { edges } }}) => (
               </li>
             </ul>
             <ul className="projects__list">
-              {edges.map(project =>
-                <li key={project.node.frontmatter.order} className="list__item">
-                  <div className="columns large-6 small-12">
-                    <div className="monitor-block">
-                      <div className="monitor__wrapper">
-                        <div className="monitor desktop">
-                          <div className="monitor__stand"/>
-                          <div className="monitor__stand-bot"/>
-                          <div className="monitor__img-wrapper">
-                            <img src={project.node.frontmatter.desktopImg} alt={project.node.frontmatter.title}/>
+              {edges.map(projects => {
+                const project = projects.node.frontmatter
+                return (
+                  <li key={project.order} className="list__item">
+                    <div className="columns large-6 small-12">
+                      <div className="monitor-block">
+                        <div className="monitor__wrapper">
+                          <div className="monitor desktop">
+                            <div className="monitor__stand"/>
+                            <div className="monitor__stand-bot"/>
+                            <div className="monitor__img-wrapper">
+                              <img src={projectImagePath(project.desktopImg, project.path, "desktop")} alt={project.title}/>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="columns large-6 small-12">
-                    <div className="info">
-                      <h3 className="info__caption">{project.node.frontmatter.title}</h3>
-                      <p className="info__text">{project.node.frontmatter.description}</p>
-                      <h3 className="item__caption">Технологии</h3>
-                      <ul className="info__list">
-                        {project.node.frontmatter.technologies.map((technology, index) => {
-                          return (
-                            <li key={index} className="info__item">
+                    <div className="columns large-6 small-12">
+                      <div className="info">
+                        <h3 className="info__caption">{project.title}</h3>
+                        <p className="info__text">{project.description}</p>
+                        <h3 className="item__caption">Технологии</h3>
+                        <ul className="info__list">
+                          {project.technologies.map((technology, i) =>
+                            <li key={i} className="info__item">
                               <span>{technology}</span>
                             </li>
-                          )
-                        })}
-                      </ul>
-                      <Link to={project.node.frontmatter.path} className="btn">Подробнее</Link>
+                          )}
+                        </ul>
+                        <Link to={project.path} className="btn">Подробнее</Link>
+                      </div>
                     </div>
-                  </div>
-                </li>
-              )}
+                  </li>
+                )
+              })}
             </ul>
           </div>
         </div>

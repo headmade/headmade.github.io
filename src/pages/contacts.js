@@ -1,7 +1,9 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 
 const About = () => (
   <main className="myMain">
+    <Helmet title="Contacts" />
     <section className="contacts__wrapper">
       <div className="row">
         <div className="columns">
