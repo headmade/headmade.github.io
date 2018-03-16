@@ -14,8 +14,8 @@ $breadcrumbs__fsz: 15px
     position: relative
     margin-right: 20px
     @include font($general-ff-pfagoraslabpro, $general-font-weight, $breadcrumbs__fsz,  #676)
-    &.breadcrumbs__item--last:before
-      content: ''
+    &:last-child:before
+      display: none
     &:before
       position: absolute
       content: '/'

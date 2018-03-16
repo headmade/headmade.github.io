@@ -23,10 +23,15 @@ html, body
 
 a
   text-decoration: none
+  transition: all .4s ease
   &:hover
     text-decoration: none
   &:focus
     outline: none
+  &.link
+    @include font($general-ff-pfagoraslabpro, $general-font-weight-light, 20px, color('primary'))
+    &:hover
+      text-decoration: underline
 
 p.p
   @include font($general-ff-pfagoraslabpro, $general-font-weight, 20px, color('text','darker'))

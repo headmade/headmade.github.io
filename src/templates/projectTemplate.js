@@ -34,6 +34,7 @@ export default function Template({data}) {
             </ul>
             <div className="info">
               <h1 className="h1">{frontmatter.title}</h1>
+              <a className="link" target="_blank" href={frontmatter.href}>{frontmatter.href}</a>
               <hr className="hr" />
               <h3 className="item__caption">Описание</h3>
               <p className="info__text" dangerouslySetInnerHTML={{ __html: html }} />
