@@ -1,5 +1,5 @@
 ---
-path: "/tovar.link"
+path: "/tovar.link/"
 order: 2
 title: "Tovar.link"
 href: "https://tovar.link/"
@@ -16,8 +16,8 @@ participation:
 technologies:
 - html, css, sass
 - микросервисная архитектура, go, grpc
-- javascript, webpack
-- PostgreSQL, NATS
+- javascript
+- PostgreSQL
 longDesktopImg: "/images/projects/flowers.kzn/longDesktop.png"
 desktopImg: "/images/projects/tovar.link/desktop.png"
 tabletImg: "/images/projects/tovar.link/tablet.png"

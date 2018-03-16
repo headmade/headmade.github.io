@@ -1,5 +1,5 @@
 ---
-path: "/flowers.kzn"
+path: "/flowers.kzn/"
 order: 1
 title: "Flowers.kzn"
 href: "https://flowers.kzn.ru/"
@@ -17,7 +17,7 @@ statistics:
 technologies:
 - html, css, sass
 - ruby, ruby-on-rails
-- javascript, angular
+- angular
 longDesktopImg: "/images/projects/flowers.kzn/longDesktop.png"
 desktopImg: "/images/projects/flowers.kzn/desktop.png"
 tabletImg: "/images/projects/flowers.kzn/tablet.png"

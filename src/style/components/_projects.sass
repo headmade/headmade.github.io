@@ -18,11 +18,20 @@
     margin-bottom: 40px
   & .projects__list
     display: flex
+    width: 100%
     flex-direction: column
+    & .info
+      text-align: left
+      & .monitor-block
+        @include small
+          min-height: 300px
+        & .monitor-wrapper
+          @include small
+            min-height: 300px
 
 .list__item
   display: flex
-  padding-bottom: 80px
+  padding-bottom: 20px
   &:last-child
     padding-bottom: 0
   &:nth-child(even)

@@ -18,20 +18,23 @@
 
 .filters-list
   display: flex
+  flex-wrap: wrap
   align-items: center
   justify-content: center
-  margin-bottom: 40px
-  & .filters-item a
-    padding: 5px 20px
-    margin: 0 10px
-    border: 1px solid color("primary")
-    border-radius: 4px
-    cursor: pointer
-    transition: all .4s ease
-    @include font($general-ff-pfagoraslabpro, $general-font-weight, 18px, color('text','darker'))
-    &:hover
-      background-color: color("primary", "light", "lighter")
-    &.active
-      cursor: default
-      background-color: color("primary", "light", "lighter")
-      color: color("primary")
+  margin-bottom: 20px
+  & .filters-item
+    margin: 0 10px 10px 0
+    & a
+      display: block
+      padding: 5px 20px
+      border: 1px solid color("primary")
+      border-radius: 4px
+      cursor: pointer
+      transition: all .4s ease
+      @include font($general-ff-pfagoraslabpro, $general-font-weight, 18px, color('text','darker'))
+      &:hover
+        background-color: color("primary", "light", "lighter")
+      &.active
+        cursor: default
+        background-color: color("primary", "light", "lighter")
+        color: color("primary")
