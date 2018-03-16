@@ -1,12 +1,12 @@
 {
   "assetsByChunkName": {
     "path---projects-react": [
-      "path---projects-react-1ceaf1ce937290094f3a.js",
-      "path---projects-react-1ceaf1ce937290094f3a.js.map"
+      "path---projects-react-58b026bd2051b33cbe64.js",
+      "path---projects-react-58b026bd2051b33cbe64.js.map"
     ],
     "path---tovar-link": [
-      "path---tovar-link-699c7c302528e12e90a9.js",
-      "path---tovar-link-699c7c302528e12e90a9.js.map"
+      "path---tovar-link-f65462ce000300109c32.js",
+      "path---tovar-link-f65462ce000300109c32.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-534f782eda737f54a579.js",
@@ -21,92 +21,92 @@
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-templates-project-filters-template-js": [
-      "component---src-templates-project-filters-template-js-553026ec8f7fcc52900d.js",
-      "component---src-templates-project-filters-template-js-553026ec8f7fcc52900d.js.map"
+      "component---src-templates-project-filters-template-js-e62477b0a52abb629ca7.js",
+      "component---src-templates-project-filters-template-js-e62477b0a52abb629ca7.js.map"
     ],
     "path---projects": [
-      "path---projects-2fa1338612f8031658ac.js",
-      "path---projects-2fa1338612f8031658ac.js.map"
+      "path---projects-b8e689d6cf0e0ae04ed8.js",
+      "path---projects-b8e689d6cf0e0ae04ed8.js.map"
     ],
     "path---projects-ruby-ruby-on-rails": [
-      "path---projects-ruby-ruby-on-rails-cb4bacbea82f8dae01f9.js",
-      "path---projects-ruby-ruby-on-rails-cb4bacbea82f8dae01f9.js.map"
+      "path---projects-ruby-ruby-on-rails-1bd2197c88f6f3ea7e59.js",
+      "path---projects-ruby-ruby-on-rails-1bd2197c88f6f3ea7e59.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-54f303270670dd89a953.js",
-      "component---src-layouts-index-js-54f303270670dd89a953.js.map"
+      "component---src-layouts-index-js-9c3e4541fc387e1d0273.js",
+      "component---src-layouts-index-js-9c3e4541fc387e1d0273.js.map"
     ],
     "path---projects-javascript": [
-      "path---projects-javascript-8c34d4df0a356522cfbd.js",
-      "path---projects-javascript-8c34d4df0a356522cfbd.js.map"
+      "path---projects-javascript-2c18a64966663b02bc71.js",
+      "path---projects-javascript-2c18a64966663b02bc71.js.map"
     ],
     "component---src-pages-contacts-js": [
-      "component---src-pages-contacts-js-d42c392da4e7d6dda594.js",
-      "component---src-pages-contacts-js-d42c392da4e7d6dda594.js.map"
+      "component---src-pages-contacts-js-a6f55ee32ac2ad7d9654.js",
+      "component---src-pages-contacts-js-a6f55ee32ac2ad7d9654.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-templates-project-template-js": [
-      "component---src-templates-project-template-js-73a0b13a781e52e14a08.js",
-      "component---src-templates-project-template-js-73a0b13a781e52e14a08.js.map"
+      "component---src-templates-project-template-js-6e434cfb43cd10eb7945.js",
+      "component---src-templates-project-template-js-6e434cfb43cd10eb7945.js.map"
     ],
     "path---projects-angular": [
-      "path---projects-angular-25fcaf1412e44cbbc12a.js",
-      "path---projects-angular-25fcaf1412e44cbbc12a.js.map"
+      "path---projects-angular-8e5f3d112f1c1070831f.js",
+      "path---projects-angular-8e5f3d112f1c1070831f.js.map"
     ],
     "path---projects-postgre-sql": [
-      "path---projects-postgre-sql-4eb6d95e8ff5550c5c12.js",
-      "path---projects-postgre-sql-4eb6d95e8ff5550c5c12.js.map"
+      "path---projects-postgre-sql-961979cbf1b1e2d7e806.js",
+      "path---projects-postgre-sql-961979cbf1b1e2d7e806.js.map"
     ],
     "component---src-pages-404-js": [
-      "component---src-pages-404-js-ce10e3225d13b0ae61ee.js",
-      "component---src-pages-404-js-ce10e3225d13b0ae61ee.js.map"
+      "component---src-pages-404-js-e545c4901453f9362467.js",
+      "component---src-pages-404-js-e545c4901453f9362467.js.map"
     ],
     "commons": [
-      "commons-480ab81d4c9d9b68eedb.js",
-      "commons-480ab81d4c9d9b68eedb.js.map"
+      "commons-54c2af82f5446f669bbc.js",
+      "commons-54c2af82f5446f669bbc.js.map"
     ],
     "path---react-gosuslugi": [
-      "path---react-gosuslugi-c0935c0a0b5132d20115.js",
-      "path---react-gosuslugi-c0935c0a0b5132d20115.js.map"
+      "path---react-gosuslugi-c08325fd506b15583102.js",
+      "path---react-gosuslugi-c08325fd506b15583102.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-projects-js": [
-      "component---src-pages-projects-js-76d55db91426c82f9b25.js",
-      "component---src-pages-projects-js-76d55db91426c82f9b25.js.map"
+      "component---src-pages-projects-js-caa84a43fca4398c9401.js",
+      "component---src-pages-projects-js-caa84a43fca4398c9401.js.map"
     ],
     "app": [
       "app-e4322c3bfe4c148b0737.js",
       "app-e4322c3bfe4c148b0737.js.map"
     ],
     "path---projects-микросервисная-архитектура-go-grpc": [
-      "path---projects-микросервисная-архитектура-go-grpc-65db9ccd374eab3459c5.js",
-      "path---projects-микросервисная-архитектура-go-grpc-65db9ccd374eab3459c5.js.map"
+      "path---projects-микросервисная-архитектура-go-grpc-63f2a84b6d1a5adcb8f0.js",
+      "path---projects-микросервисная-архитектура-go-grpc-63f2a84b6d1a5adcb8f0.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-about-js": [
-      "component---src-pages-about-js-c1d4f705902f2761b725.js",
-      "component---src-pages-about-js-c1d4f705902f2761b725.js.map"
+      "component---src-pages-about-js-158de6e1f5f78179b53c.js",
+      "component---src-pages-about-js-158de6e1f5f78179b53c.js.map"
     ],
     "path---projects-html-css-sass": [
-      "path---projects-html-css-sass-026f650461cd78841b37.js",
-      "path---projects-html-css-sass-026f650461cd78841b37.js.map"
+      "path---projects-html-css-sass-71f0243f023c7b4dc38c.js",
+      "path---projects-html-css-sass-71f0243f023c7b4dc38c.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
       "path---about-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---flowers-kzn": [
-      "path---flowers-kzn-7972f5f091feeb4b715a.js",
-      "path---flowers-kzn-7972f5f091feeb4b715a.js.map"
+      "path---flowers-kzn-2c759fd285d5ba797057.js",
+      "path---flowers-kzn-2c759fd285d5ba797057.js.map"
     ]
   }
 }
