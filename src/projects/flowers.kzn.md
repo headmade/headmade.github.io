@@ -18,6 +18,10 @@ technologies:
 - html, css, sass
 - ruby, ruby-on-rails
 - angular
+longDesktopImg: ""
+desktopImg: ""
+tabletImg: ""
+phoneImg: ""
 ---
 
 Проект для проведения конкурсов и голосований среди граждан на примере \"цветочного фестиваля\" в г. Казань.

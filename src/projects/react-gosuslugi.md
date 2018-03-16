@@ -12,6 +12,10 @@ statistics:
 technologies:
 - html, css, sass
 - react
+longDesktopImg: ""
+desktopImg: ""
+tabletImg: ""
+phoneImg: ""
 ---
 
 react-gosuslugi
