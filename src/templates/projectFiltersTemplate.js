@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 
 // Components
 import Link from "gatsby-link";
+import projectImagePath from "../utils/projectImagePath";
 
 const Tags = ({data}) => {
   const {edges} = data.allMarkdownRemark;
@@ -61,7 +62,7 @@ const Tags = ({data}) => {
                             <div className="monitor__stand"/>
                             <div className="monitor__stand-bot"/>
                             <div className="monitor__img-wrapper">
-                              <img src={project.node.frontmatter.desktopImg} alt={project.node.frontmatter.title}/>
+                              <img src={projectImagePath(project.node.frontmatter.desktopImg, project.node.frontmatter.path, "desktop")} alt={project.node.frontmatter.title}/>
                             </div>
                           </div>
                         </div>
