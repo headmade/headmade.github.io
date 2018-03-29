@@ -1,6 +1,6 @@
 ---
 path: "/flowers.kzn/"
-order: 1
+order: 2
 title: "Flowers.kzn"
 href: "https://flowers.kzn.ru/"
 description: "Проект для проведения конкурсов и голосований среди граждан на примере `цветочного фестиваля` в г. Казань."
