@@ -16,7 +16,8 @@ statistics:
 technologies:
 - html, css, sass
 - ruby, ruby-on-rails
-- angular
+- react
+- postgres
 longDesktopImg: ""
 desktopImg: ""
 tabletImg: ""

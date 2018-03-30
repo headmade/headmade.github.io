@@ -18,6 +18,7 @@ technologies:
 - html, css, sass
 - ruby, ruby-on-rails
 - angular
+- postgres
 longDesktopImg: ""
 desktopImg: ""
 tabletImg: ""
