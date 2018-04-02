@@ -25,20 +25,20 @@
       "component---src-templates-project-filters-template-js-41b0af5b788fc1a2b84a.js.map"
     ],
     "path---projects": [
-      "path---projects-64fe0bd493ec39575079.js",
-      "path---projects-64fe0bd493ec39575079.js.map"
+      "path---projects-3ad274fa0f656bea9e5f.js",
+      "path---projects-3ad274fa0f656bea9e5f.js.map"
     ],
     "path---projects-ruby-ruby-on-rails": [
-      "path---projects-ruby-ruby-on-rails-50265ad786302a16444d.js",
-      "path---projects-ruby-ruby-on-rails-50265ad786302a16444d.js.map"
+      "path---projects-ruby-ruby-on-rails-5d791544f909eb8949a3.js",
+      "path---projects-ruby-ruby-on-rails-5d791544f909eb8949a3.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-7769a2dba695420c2477.js",
       "component---src-layouts-index-js-7769a2dba695420c2477.js.map"
     ],
     "path---projects-javascript": [
-      "path---projects-javascript-91c86ac7af0fff6ef628.js",
-      "path---projects-javascript-91c86ac7af0fff6ef628.js.map"
+      "path---projects-javascript-779ad1a224b10e9c61fa.js",
+      "path---projects-javascript-779ad1a224b10e9c61fa.js.map"
     ],
     "component---src-pages-contacts-js": [
       "component---src-pages-contacts-js-a6f55ee32ac2ad7d9654.js",
@@ -84,9 +84,13 @@
       "component---src-pages-projects-js-82daf57171da65eabbe0.js",
       "component---src-pages-projects-js-82daf57171da65eabbe0.js.map"
     ],
+    "path---aliposter-ru": [
+      "path---aliposter-ru-54ba108c228b2b4784cd.js",
+      "path---aliposter-ru-54ba108c228b2b4784cd.js.map"
+    ],
     "app": [
-      "app-d4666be1bd23b0e5a831.js",
-      "app-d4666be1bd23b0e5a831.js.map"
+      "app-d561f1f12a6bff586e5d.js",
+      "app-d561f1f12a6bff586e5d.js.map"
     ],
     "path---projects-микросервисная-архитектура-go-grpc": [
       "path---projects-микросервисная-архитектура-go-grpc-04db7c8992225cd71aa0.js",
@@ -105,12 +109,12 @@
       "component---src-pages-about-js-158de6e1f5f78179b53c.js.map"
     ],
     "path---projects-postgres": [
-      "path---projects-postgres-e40afa5f69b7a25df80a.js",
-      "path---projects-postgres-e40afa5f69b7a25df80a.js.map"
+      "path---projects-postgres-6ac27b046f3dedcc6d96.js",
+      "path---projects-postgres-6ac27b046f3dedcc6d96.js.map"
     ],
     "path---projects-html-css-sass": [
-      "path---projects-html-css-sass-35ee11a2ab4816c81ab3.js",
-      "path---projects-html-css-sass-35ee11a2ab4816c81ab3.js.map"
+      "path---projects-html-css-sass-475d64f8ff6e4f1d958d.js",
+      "path---projects-html-css-sass-475d64f8ff6e4f1d958d.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
