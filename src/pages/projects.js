@@ -39,8 +39,8 @@ const Projects = ({data: { allMarkdownRemark: { edges } }}) => (
                 </Link>
               </li>
               <li className="filters-item">
-                <Link activeClassName='active' to="/projects/postgre-sql">
-                  PostgreSQL
+                <Link activeClassName='active' to="/projects/postgres">
+                  postgres
                 </Link>
               </li>
             </ul>

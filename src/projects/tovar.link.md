@@ -17,7 +17,7 @@ technologies:
 - html, css, sass
 - микросервисная архитектура, go, grpc
 - javascript
-- PostgreSQL
+- postgres
 longDesktopImg: ""
 desktopImg: ""
 tabletImg: ""
