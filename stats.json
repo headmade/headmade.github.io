@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---projects-react": [
-      "path---projects-react-5ec8fc32fb58276612d4.js",
-      "path---projects-react-5ec8fc32fb58276612d4.js.map"
+      "path---projects-react-42b3ebce3ca6e9512c69.js",
+      "path---projects-react-42b3ebce3ca6e9512c69.js.map"
     ],
     "path---tovar-link": [
       "path---tovar-link-7a953314261d5356b876.js",
@@ -25,24 +25,20 @@
       "component---src-templates-project-filters-template-js-41b0af5b788fc1a2b84a.js.map"
     ],
     "path---projects": [
-      "path---projects-4957fa5e4b1e6de4abd7.js",
-      "path---projects-4957fa5e4b1e6de4abd7.js.map"
+      "path---projects-64fe0bd493ec39575079.js",
+      "path---projects-64fe0bd493ec39575079.js.map"
     ],
     "path---projects-ruby-ruby-on-rails": [
-      "path---projects-ruby-ruby-on-rails-8e5fd0add7a83f392bf3.js",
-      "path---projects-ruby-ruby-on-rails-8e5fd0add7a83f392bf3.js.map"
-    ],
-    "path---dispute-kzn": [
-      "path---dispute-kzn-15c1dff284b251fde4c2.js",
-      "path---dispute-kzn-15c1dff284b251fde4c2.js.map"
+      "path---projects-ruby-ruby-on-rails-50265ad786302a16444d.js",
+      "path---projects-ruby-ruby-on-rails-50265ad786302a16444d.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-9c3e4541fc387e1d0273.js",
-      "component---src-layouts-index-js-9c3e4541fc387e1d0273.js.map"
+      "component---src-layouts-index-js-7769a2dba695420c2477.js",
+      "component---src-layouts-index-js-7769a2dba695420c2477.js.map"
     ],
     "path---projects-javascript": [
-      "path---projects-javascript-bc01f210ee815ed6b871.js",
-      "path---projects-javascript-bc01f210ee815ed6b871.js.map"
+      "path---projects-javascript-91c86ac7af0fff6ef628.js",
+      "path---projects-javascript-91c86ac7af0fff6ef628.js.map"
     ],
     "component---src-pages-contacts-js": [
       "component---src-pages-contacts-js-a6f55ee32ac2ad7d9654.js",
@@ -56,9 +52,17 @@
       "component---src-templates-project-template-js-6e434cfb43cd10eb7945.js",
       "component---src-templates-project-template-js-6e434cfb43cd10eb7945.js.map"
     ],
+    "path---is-uslugi": [
+      "path---is-uslugi-503f21475fe5ab1c92ea.js",
+      "path---is-uslugi-503f21475fe5ab1c92ea.js.map"
+    ],
     "path---projects-angular": [
-      "path---projects-angular-0b35d88ef0efe36db88f.js",
-      "path---projects-angular-0b35d88ef0efe36db88f.js.map"
+      "path---projects-angular-df90e84ab147642f2b79.js",
+      "path---projects-angular-df90e84ab147642f2b79.js.map"
+    ],
+    "path---is-golos": [
+      "path---is-golos-6a6c5ac0cb58b8599078.js",
+      "path---is-golos-6a6c5ac0cb58b8599078.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-e545c4901453f9362467.js",
@@ -81,12 +85,16 @@
       "component---src-pages-projects-js-82daf57171da65eabbe0.js.map"
     ],
     "app": [
-      "app-586fa3cac7e0a746ddda.js",
-      "app-586fa3cac7e0a746ddda.js.map"
+      "app-d4666be1bd23b0e5a831.js",
+      "app-d4666be1bd23b0e5a831.js.map"
     ],
     "path---projects-микросервисная-архитектура-go-grpc": [
-      "path---projects-микросервисная-архитектура-go-grpc-cc8d5afc8ee7d5fb2707.js",
-      "path---projects-микросервисная-архитектура-go-grpc-cc8d5afc8ee7d5fb2707.js.map"
+      "path---projects-микросервисная-архитектура-go-grpc-04db7c8992225cd71aa0.js",
+      "path---projects-микросервисная-архитектура-go-grpc-04db7c8992225cd71aa0.js.map"
+    ],
+    "path---is-memorial": [
+      "path---is-memorial-06d5093d41ffc4d7e193.js",
+      "path---is-memorial-06d5093d41ffc4d7e193.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
@@ -97,20 +105,20 @@
       "component---src-pages-about-js-158de6e1f5f78179b53c.js.map"
     ],
     "path---projects-postgres": [
-      "path---projects-postgres-f2eba2ebce394e8b7031.js",
-      "path---projects-postgres-f2eba2ebce394e8b7031.js.map"
+      "path---projects-postgres-e40afa5f69b7a25df80a.js",
+      "path---projects-postgres-e40afa5f69b7a25df80a.js.map"
     ],
     "path---projects-html-css-sass": [
-      "path---projects-html-css-sass-186e95acdc093a11aea2.js",
-      "path---projects-html-css-sass-186e95acdc093a11aea2.js.map"
+      "path---projects-html-css-sass-35ee11a2ab4816c81ab3.js",
+      "path---projects-html-css-sass-35ee11a2ab4816c81ab3.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
       "path---about-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---flowers-kzn": [
-      "path---flowers-kzn-0234afc89e7b990c871e.js",
-      "path---flowers-kzn-0234afc89e7b990c871e.js.map"
+    "path---is-mnenie": [
+      "path---is-mnenie-461a6a666fd34a754c05.js",
+      "path---is-mnenie-461a6a666fd34a754c05.js.map"
     ]
   }
 }

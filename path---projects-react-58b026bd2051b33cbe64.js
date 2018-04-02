@@ -1,2 +1,0 @@
-webpackJsonp([4103707086358],{363:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{path:"/react-gosuslugi/",order:3,title:"react-gosuslugi",description:"react-gosuslugi",desktopImg:"",technologies:["html, css, sass","react"]}}}]}},pathContext:{technology:"react"}}}});
-//# sourceMappingURL=path---projects-react-58b026bd2051b33cbe64.js.map
