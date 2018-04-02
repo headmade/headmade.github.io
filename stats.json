@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---projects-react": [
-      "path---projects-react-42b3ebce3ca6e9512c69.js",
-      "path---projects-react-42b3ebce3ca6e9512c69.js.map"
+      "path---projects-react-0b1993bb2280bcd78dd8.js",
+      "path---projects-react-0b1993bb2280bcd78dd8.js.map"
     ],
     "path---tovar-link": [
       "path---tovar-link-7a953314261d5356b876.js",
@@ -25,20 +25,20 @@
       "component---src-templates-project-filters-template-js-41b0af5b788fc1a2b84a.js.map"
     ],
     "path---projects": [
-      "path---projects-3ad274fa0f656bea9e5f.js",
-      "path---projects-3ad274fa0f656bea9e5f.js.map"
+      "path---projects-357c8e430c0b15804f24.js",
+      "path---projects-357c8e430c0b15804f24.js.map"
     ],
     "path---projects-ruby-ruby-on-rails": [
-      "path---projects-ruby-ruby-on-rails-5d791544f909eb8949a3.js",
-      "path---projects-ruby-ruby-on-rails-5d791544f909eb8949a3.js.map"
+      "path---projects-ruby-ruby-on-rails-b56c0b0df0a752c88b26.js",
+      "path---projects-ruby-ruby-on-rails-b56c0b0df0a752c88b26.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-7769a2dba695420c2477.js",
       "component---src-layouts-index-js-7769a2dba695420c2477.js.map"
     ],
     "path---projects-javascript": [
-      "path---projects-javascript-779ad1a224b10e9c61fa.js",
-      "path---projects-javascript-779ad1a224b10e9c61fa.js.map"
+      "path---projects-javascript-d70bb08f7ee13453d4ea.js",
+      "path---projects-javascript-d70bb08f7ee13453d4ea.js.map"
     ],
     "component---src-pages-contacts-js": [
       "component---src-pages-contacts-js-a6f55ee32ac2ad7d9654.js",
@@ -57,8 +57,8 @@
       "path---is-uslugi-503f21475fe5ab1c92ea.js.map"
     ],
     "path---projects-angular": [
-      "path---projects-angular-df90e84ab147642f2b79.js",
-      "path---projects-angular-df90e84ab147642f2b79.js.map"
+      "path---projects-angular-bb51417971d8a39d89d5.js",
+      "path---projects-angular-bb51417971d8a39d89d5.js.map"
     ],
     "path---is-golos": [
       "path---is-golos-6a6c5ac0cb58b8599078.js",
@@ -89,12 +89,12 @@
       "path---aliposter-ru-54ba108c228b2b4784cd.js.map"
     ],
     "app": [
-      "app-d561f1f12a6bff586e5d.js",
-      "app-d561f1f12a6bff586e5d.js.map"
+      "app-ac4443f9a8020d8234ba.js",
+      "app-ac4443f9a8020d8234ba.js.map"
     ],
     "path---projects-микросервисная-архитектура-go-grpc": [
-      "path---projects-микросервисная-архитектура-go-grpc-04db7c8992225cd71aa0.js",
-      "path---projects-микросервисная-архитектура-go-grpc-04db7c8992225cd71aa0.js.map"
+      "path---projects-микросервисная-архитектура-go-grpc-9f6c4271a29bd0d675ae.js",
+      "path---projects-микросервисная-архитектура-go-grpc-9f6c4271a29bd0d675ae.js.map"
     ],
     "path---is-memorial": [
       "path---is-memorial-06d5093d41ffc4d7e193.js",
@@ -109,12 +109,12 @@
       "component---src-pages-about-js-158de6e1f5f78179b53c.js.map"
     ],
     "path---projects-postgres": [
-      "path---projects-postgres-6ac27b046f3dedcc6d96.js",
-      "path---projects-postgres-6ac27b046f3dedcc6d96.js.map"
+      "path---projects-postgres-ddfb9a884b235173e931.js",
+      "path---projects-postgres-ddfb9a884b235173e931.js.map"
     ],
     "path---projects-html-css-sass": [
-      "path---projects-html-css-sass-475d64f8ff6e4f1d958d.js",
-      "path---projects-html-css-sass-475d64f8ff6e4f1d958d.js.map"
+      "path---projects-html-css-sass-2756cdffda55e47c8b77.js",
+      "path---projects-html-css-sass-2756cdffda55e47c8b77.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
