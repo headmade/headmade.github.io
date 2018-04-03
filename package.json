@@ -21,6 +21,7 @@
     "gatsby-link": "^1.6.38",
     "gatsby-plugin-react-helmet": "^2.0.6",
     "gatsby-plugin-sass": "^1.0.21",
+    "gatsby-plugin-sitemap": "^1.2.20",
     "gatsby-plugin-yandex-metrika": "^1.0.5",
     "gatsby-source-filesystem": "^1.5.27",
     "gatsby-transformer-remark": "^1.7.36",

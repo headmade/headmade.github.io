@@ -24,14 +24,13 @@ const linkList = [
 
 class TemplateWrapper extends React.Component {
   render() {
-    console.log('---', this.props)
     const {children} = this.props
     return (
       <div className='generalWrapper'>
         <Helmet
           title="HeadMade"
           meta={[
-            { name: 'description', content: 'Официальная странница ООО "HeadMade"' }
+            { name: 'description', content: 'Headmade - ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ХЭДМЕЙД" (ООО ХЭДМЕЙД ), Казань, Республика Татарстан, ИНН 1657119572, ОГРН 1121690046411' },
           ]}
           link={[{ rel: 'icon', href: favicon }]}
         />

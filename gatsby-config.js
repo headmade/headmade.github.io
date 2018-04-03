@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Gatsby Default Starter',
+    siteUrl: `http://headmade.pro`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,6 +20,9 @@ module.exports = {
         path: `${__dirname}/src/projects`,
         name: "markdown-pages",
       },
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
     },
     `gatsby-transformer-remark`
   ],
