@@ -15,9 +15,12 @@ participation:
 - Поиск партнёров и инвесторов
 technologies:
 - html, css, sass
-- микросервисная архитектура, go, grpc
+- go
+- микросервисная архитектура, grpc
 - javascript
 - postgres
+- redis
+- nats
 longDesktopImg: ""
 desktopImg: ""
 tabletImg: ""

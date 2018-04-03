@@ -18,6 +18,7 @@ technologies:
 - ruby, ruby-on-rails
 - javascript
 - postgres
+- redis
 longDesktopImg: ""
 desktopImg: ""
 tabletImg: ""
