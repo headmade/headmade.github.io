@@ -1,6 +1,6 @@
 ---
 path: "/is-mnenie/"
-order: 3
+order: 80
 title: "ИС Мнение"
 href: "https://dispute.kzn.ru/"
 description: "Система для проведения общественных обсуждений нормативно-правовых актов"

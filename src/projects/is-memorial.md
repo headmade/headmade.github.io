@@ -1,6 +1,6 @@
 ---
 path: "/is-memorial/"
-order: 2
+order: 70
 title: "ИС Мемориал"
 href: "https://cemetery.kzn.ru/"
 description: "Система информационного управления захоронениями на примере г. Казань."
