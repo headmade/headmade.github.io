@@ -100,6 +100,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       limit: 2000
+      sort: { fields: [frontmatter___order], order: DESC }
     ) {
       group(field: frontmatter___technologies) {
         fieldValue
