@@ -4,6 +4,7 @@
 <url> <loc>http://headmade.pro/is-golos/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://headmade.pro/is-mnenie/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://headmade.pro/is-memorial/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://headmade.pro/is-ochered/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://headmade.pro/metshin.ru/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://headmade.pro/tovar.link/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://headmade.pro/aliposter.ru/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -13,8 +14,9 @@
 <url> <loc>http://headmade.pro/projects/react/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://headmade.pro/projects/postgres/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://headmade.pro/projects/angular/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://headmade.pro/projects/javascript/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://headmade.pro/projects/go/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://headmade.pro/projects/sq-light/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://headmade.pro/projects/javascript/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://headmade.pro/projects/микросервисная-архитектура-grpc/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://headmade.pro/projects/redis/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://headmade.pro/projects/nats/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

@@ -1,0 +1,2 @@
+webpackJsonp([0xc698e25515eb],{384:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{path:"/is-ochered/",order:65,title:"ИС Очередь",description:"Информационная система для обеспечения функций электронной очереди.",desktopImg:"",technologies:["html, css, sass","go","angular","SQLight"]}}}]}},pathContext:{technology:"SQLight"}}}});
+//# sourceMappingURL=path---projects-sq-light-c9aad7783327b3ba119b.js.map

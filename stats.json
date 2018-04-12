@@ -29,8 +29,8 @@
       "component---src-templates-project-filters-template-js-41b0af5b788fc1a2b84a.js.map"
     ],
     "path---projects": [
-      "path---projects-c071846b6a7da718bab9.js",
-      "path---projects-c071846b6a7da718bab9.js.map"
+      "path---projects-2c84e6ac21f8a6c4a92e.js",
+      "path---projects-2c84e6ac21f8a6c4a92e.js.map"
     ],
     "path---projects-ruby-ruby-on-rails": [
       "path---projects-ruby-ruby-on-rails-cd1578fc3885edb68e65.js",
@@ -69,12 +69,12 @@
       "path---metshin-ru-2478972d84605e658bb1.js.map"
     ],
     "path---projects-angular": [
-      "path---projects-angular-bb51417971d8a39d89d5.js",
-      "path---projects-angular-bb51417971d8a39d89d5.js.map"
+      "path---projects-angular-308177df49b336ca414a.js",
+      "path---projects-angular-308177df49b336ca414a.js.map"
     ],
     "path---projects-go": [
-      "path---projects-go-1bf995893b105e1d4563.js",
-      "path---projects-go-1bf995893b105e1d4563.js.map"
+      "path---projects-go-e46e18e3421e237f6fa9.js",
+      "path---projects-go-e46e18e3421e237f6fa9.js.map"
     ],
     "path---is-golos": [
       "path---is-golos-6a6c5ac0cb58b8599078.js",
@@ -104,9 +104,17 @@
       "path---aliposter-ru-fb20b12c7447d051bf8c.js",
       "path---aliposter-ru-fb20b12c7447d051bf8c.js.map"
     ],
+    "path---is-ochered": [
+      "path---is-ochered-488acbcb1c3604242427.js",
+      "path---is-ochered-488acbcb1c3604242427.js.map"
+    ],
+    "path---projects-sq-light": [
+      "path---projects-sq-light-c9aad7783327b3ba119b.js",
+      "path---projects-sq-light-c9aad7783327b3ba119b.js.map"
+    ],
     "app": [
-      "app-44f8da5689fc2f611b1e.js",
-      "app-44f8da5689fc2f611b1e.js.map"
+      "app-432d6143c719f8980f48.js",
+      "app-432d6143c719f8980f48.js.map"
     ],
     "path---is-memorial": [
       "path---is-memorial-06d5093d41ffc4d7e193.js",
@@ -125,8 +133,8 @@
       "path---projects-postgres-43c40c0d3a1068b0c774.js.map"
     ],
     "path---projects-html-css-sass": [
-      "path---projects-html-css-sass-fc629cab2ac1da813969.js",
-      "path---projects-html-css-sass-fc629cab2ac1da813969.js.map"
+      "path---projects-html-css-sass-cb17def0750758cd9e11.js",
+      "path---projects-html-css-sass-cb17def0750758cd9e11.js.map"
     ],
     "path---projects-redis": [
       "path---projects-redis-539a610aded52b1a03e4.js",
