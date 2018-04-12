@@ -1,6 +1,6 @@
 ---
 path: "/react-gosuslugi/"
-order: 40
+order: 30
 title: "react-gosuslugi"
 href: "http://headmade.pro/react-gosuslugi/"
 description: "react-gosuslugi"
