@@ -28,7 +28,8 @@ class TemplateWrapper extends React.Component {
     return (
       <div className='generalWrapper'>
         <Helmet
-          title="HeadMade"
+          title="Headmade LLC"
+          titleTemplate="%s - ООО Хэдмейд, headmade.pro"
           meta={[
             { name: 'description', content: 'Headmade - ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ХЭДМЕЙД" (ООО ХЭДМЕЙД ), Казань, Республика Татарстан, ИНН 1657119572, ОГРН 1121690046411' },
           ]}

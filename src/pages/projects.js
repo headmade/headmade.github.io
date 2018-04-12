@@ -6,7 +6,10 @@ import projectImagePath from "../utils/projectImagePath"
 
 const Projects = ({data: { allMarkdownRemark: { edges } }}) => (
   <main className="myMain">
-    <Helmet title="projects" />
+    <Helmet>
+      <title>Проекты</title>
+      <meta name="description" content="Проекты, выполненные ООО Хэдмейд: ИС Услуги, ИС Голос, ИС Мнение, ИС Мемориал и другие" />
+    </Helmet>
     <section className="projects__wrapper">
       <div className="row">
         <div className="columns">
