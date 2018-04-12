@@ -14,7 +14,10 @@ export default function Template({data}) {
   const { frontmatter, html } = markdownRemark
   return (
     <main className="myMain" >
-      <Helmet title={frontmatter.title} />
+      <Helmet>
+        <title>{frontmatter.title}</title>
+        <meta name="description" content={frontmatter.description} />
+      </Helmet>
       <section className="project">
         <div className="row">
           <div className="columns large-6 small-12 medium-order-2 small-order-2 large-order-1">
