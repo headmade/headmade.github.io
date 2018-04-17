@@ -7,6 +7,7 @@ const About = () => (
   <main className="myMain">
     <Helmet title="About" />
     <Directions />
+    {/*<Cert />*/}
     <section className="about__wrapper">
       <div className="row">
         <div className="columns">
@@ -36,7 +37,6 @@ const About = () => (
         </div>
       </div>
     </section>
-    <Cert />
   </main>
 )
 
