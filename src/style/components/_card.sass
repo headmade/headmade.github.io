@@ -26,9 +26,40 @@ $card-img__height: $card-img__width
       margin-bottom: $general-margin/4
       & img
         @include img()
+
+      & .img__normal
+        margin: auto
+        position: fixed
+        width: 80%
+        height: 80%
+        z-index: 100
+        cursor: pointer
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+        & img
+          @include img()
+          width: auto
+          height: 100%
+          margin: auto
+
+      & .img__mini
+        width: 100px
+        height: 150px
+        cursor: pointer
+        & img
+          @include img()
+          height: 100%
+
     & .item__caption
       @include font($general-ff-pfagoraslabpro, $general-font-weight-bold, 26px, color('text','darker'), $general-font-line-height*1.5)
       margin-bottom: $general-margin/8
     & .item__text
       @include font($general-ff-pfagoraslabpro, $general-font-weight, 16px, color('text','light'))
       margin: 0
+
+.cert .card__list .card__img
+  width: auto
+  height: auto
+

@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Directions from '../components/Directions'
+import Cert from '../components/Cert'
 
 const About = () => (
   <main className="myMain">
@@ -35,6 +36,7 @@ const About = () => (
         </div>
       </div>
     </section>
+    <Cert />
   </main>
 )
 
