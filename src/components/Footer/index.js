@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import LogoHead from './brain.png'
+import LogoHead from './head.svg'
 import './Footer.sass'
 
 const Footer = ({linkList}) => (

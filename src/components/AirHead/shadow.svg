@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="302px" height="32px" viewBox="0 0 302 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>тень</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50.0001326%" cy="50.0009649%" fx="50.0001326%" fy="50.0009649%" r="495.570884%" gradientTransform="translate(0.500001,0.500010),scale(0.100885,1.000000),translate(-0.500001,-0.500010)" id="radialGradient-1">
+            <stop stop-color="#D1D3D4" offset="0%"></stop>
+            <stop stop-color="#DADBDC" stop-opacity="0.8967" offset="10.33%"></stop>
+            <stop stop-color="#EEEFEF" stop-opacity="0.5918" offset="40.82%"></stop>
+            <stop stop-color="#FBFBFB" stop-opacity="0.2907" offset="70.93%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="head" transform="translate(-170.000000, -467.000000)" fill="url(#radialGradient-1)" fill-rule="nonzero">
+            <ellipse id="тень" cx="320.985" cy="483.112" rx="150.884" ry="15.222"></ellipse>
+        </g>
+    </g>
+</svg>

@@ -3,8 +3,8 @@ import React from 'react'
 import MouseScroll from '../MouseScroll'
 import AnimateScroll from "../../javascripts/animateScroll"
 
-import LogoHead from './brain.png'
-import ShadowHead from './head_shadow.png'
+import LogoHead from './head.svg'
+import ShadowHead from './shadow.svg'
 import './AirHead.sass'
 
 
