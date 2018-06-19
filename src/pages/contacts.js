@@ -16,7 +16,7 @@ const About = () => (
               <a href="tel:+78432599923" className="icon__link">+7(843)259-99-23</a>
             </div>
             <div className="icon map">
-              <a className="icon__link">г. Казань, ул.Московская, д.22</a>
+              <a className="icon__link">г. Казань, ул.Карла Маркса, д.5, оф.114</a>
             </div>
           </div>
         </div>
