@@ -1,0 +1,2 @@
+webpackJsonp([0x9dbf0627fee3],{388:function(t,e){t.exports={data:{markdownRemark:{html:"<p>react-gosuslugi</p>",frontmatter:{title:"react-gosuslugi",technologies:["html, css, sass","react"],description:"react-gosuslugi",participation:["Дизайн и разработка","Эксплуатация и сопровождение"],href:"http://headmade.pro/react-gosuslugi/",statistics:["Сделано по гайду Госуслуг"],path:"/react-gosuslugi/",longDesktopImg:"",desktopImg:"",tabletImg:"",files:null,phoneImg:""}}},pathContext:{}}}});
+//# sourceMappingURL=path---react-gosuslugi-392089afbdddc336e932.js.map
