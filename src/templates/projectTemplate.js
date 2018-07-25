@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
@@ -7,7 +7,6 @@ import MouseScroll from '../components/MouseScroll/index'
 import monitorBtns from '../javascripts/monitorBtns'
 import animateScroll from '../javascripts/animateScroll'
 import projectImagePath from "../utils/projectImagePath";
-
 
 export default function Template({data}) {
   const { markdownRemark } = data
@@ -84,6 +83,19 @@ export default function Template({data}) {
                   )
                 })}
               </ul>
+              <hr className="hr"/>
+              <h3 className="item__caption">Документы</h3>
+              {frontmatter.files &&
+                <ul className="info__list">
+                  {frontmatter.files.map((file, index) => {
+                    return (
+                      <li key={index} className="info__item">
+                        <a target='_blank' href={`/downloads${frontmatter.path}${file}.pdf`}>{file}</a>
+                      </li>
+                    )
+                  })}
+                </ul>
+              }
             </div>
           </div>
           <div className="columns large-6 small-12 medium-order-4 small-order-4">
@@ -145,6 +157,7 @@ export const pageQuery = graphql`
         longDesktopImg
         desktopImg
         tabletImg
+        files
         phoneImg
       }
     }
