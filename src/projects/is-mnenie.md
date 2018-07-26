@@ -18,6 +18,7 @@ technologies:
 - ruby, ruby-on-rails
 - react
 - postgres
+
 files:
 - Инструкция по установке
 - Функциональное описание

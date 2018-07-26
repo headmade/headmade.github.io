@@ -3,10 +3,10 @@ import Helmet from 'react-helmet'
 
 // Components
 import Link from "gatsby-link";
-import projectImagePath from "../utils/projectImagePath";
+import projectImagePath from "../utils/projectImagePath"
 
 const Tags = ({data}) => {
-  const {edges} = data.allMarkdownRemark;
+  const {edges} = data.allMarkdownRemark
   return (
     <main className="myMain">
       <Helmet title="projects" />
