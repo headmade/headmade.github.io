@@ -1,0 +1,2 @@
+webpackJsonp([0x794691044bda],{386:function(o,t){o.exports={pathContext:{technology:"микросервисная архитектура, grpc"}}}});
+//# sourceMappingURL=path---projects-микросервисная-архитектура-grpc-f8943d15c8c97f736e00.js.map
