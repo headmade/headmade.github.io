@@ -83,10 +83,10 @@ export default function Template({data}) {
                   )
                 })}
               </ul>
-              <hr className="hr"/>
-              <h3 className="item__caption">Документы</h3>
-              {frontmatter.files &&
-                <ul className="info__list">
+              {frontmatter.files &&  [
+                <hr key="1" className="hr"/>,
+                <h3 key="2" className="item__caption">Документы</h3>,
+                <ul key="3" className="info__list">
                   {frontmatter.files.map((file, index) => {
                     return (
                       <li key={index} className="info__item">
@@ -95,7 +95,7 @@ export default function Template({data}) {
                     )
                   })}
                 </ul>
-              }
+              ]}
             </div>
           </div>
           <div className="columns large-6 small-12 medium-order-4 small-order-4">
