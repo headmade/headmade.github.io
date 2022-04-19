@@ -41,7 +41,7 @@ export default function Template({data}) {
             </ul>
             <div className="info">
               <h1 className="h1">{frontmatter.title}</h1>
-              <a className="link" target="_blank" href={frontmatter.href}>{frontmatter.href}</a>
+              {!frontmatter.hideHref && <a className="link" target="_blank" href={frontmatter.href}>{frontmatter.href}</a>}
               <hr className="hr" />
               <h3 className="item__caption">Описание</h3>
               <p className="info__text" dangerouslySetInnerHTML={{ __html: html }} />
@@ -57,7 +57,8 @@ export default function Template({data}) {
                 })}
               </ul>
               <hr className="hr"/>
-              <a target="_blank" href={frontmatter.href} className="btn">Перейти на сайт</a>
+              <a target="_blank" href={frontmatter.offerBtnHref || frontmatter.href} className="btn">{frontmatter.offerBtnTitle || "Перейти на сайт"}</a>
+              {frontmatter.offerDesc && <p className={"offer-desc"}>{frontmatter.offerDesc}</p>}
             </div>
           </div>
           <div className="columns large-6 small-12 medium-order-3 small-order-3">
@@ -159,6 +160,10 @@ export const pageQuery = graphql`
         tabletImg
         files
         phoneImg
+        offerBtnHref
+        offerBtnTitle
+        offerDesc
+        hideHref
       }
     }
   }
