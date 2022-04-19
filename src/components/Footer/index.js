@@ -23,7 +23,7 @@ const Footer = ({linkList}) => (
               </li>
             )}
           </ul>
-          <p className="nav__coop">Copyright © 2011 - 2019 HeadMade</p>
+          <p className="nav__coop">{`Copyright © 2012 - ${new Date().getFullYear()}`}</p>
         </nav>
       </div>
     </div>
