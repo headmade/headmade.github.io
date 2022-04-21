@@ -1,2 +1,0 @@
-webpackJsonp([0x8a3782e3bf9c],{359:function(t,o){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{path:"/flowers.kzn/",order:1,title:"Flowers.kzn",description:"Проект для проведения конкурсов и голосований среди граждан на примере `цветочного фестиваля` в г. Казань.",desktopImg:"",technologies:["html, css, sass","ruby, ruby-on-rails","angular"]}}}]}},pathContext:{technology:"angular"}}}});
-//# sourceMappingURL=path---projects-angular-8e5f3d112f1c1070831f.js.map
