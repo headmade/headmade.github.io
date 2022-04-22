@@ -63,6 +63,17 @@ export default function Template({data}) {
           </div>
           <div className="columns large-6 small-12 medium-order-3 small-order-3">
             <div className="statistics info">
+              <h3 className="item__caption">{frontmatter.modulesTitle}</h3>
+              <ul className="info__list">
+                {frontmatter.modules && frontmatter.modules.length && frontmatter.modules.map((moduleItem, index) => {
+                  return (
+                    <li className="info__item" key={index}>
+                      <span>{moduleItem}</span>
+                    </li>
+                  )
+                })}
+              </ul>
+              {frontmatter.modules && frontmatter.modules.length && <hr className="hr"/>}
               <h3 className="item__caption">Показатели</h3>
               <ul className="info__list">
                 {frontmatter.statistics.map((statistic, index) => {
@@ -164,6 +175,8 @@ export const pageQuery = graphql`
         offerBtnTitle
         offerDesc
         hideHref
+        modulesTitle
+        modules
       }
     }
   }
