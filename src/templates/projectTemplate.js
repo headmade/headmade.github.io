@@ -28,6 +28,18 @@ export default function Template({data}) {
                 <MouseScroll />
               </div>
             </div>
+            <div className={"statistics info"} style={{marginTop: 29}}>
+              <h3 className="item__caption">{frontmatter.modulesTitle}</h3>
+              <ul className="info__list">
+                {frontmatter.modules && frontmatter.modules.length && frontmatter.modules.map((moduleItem, index) => {
+                  return (
+                    <li className="info__item" key={index}>
+                      <span>{moduleItem}</span>
+                    </li>
+                  )
+                })}
+              </ul>
+            </div>
           </div>
           <div className="columns large-6 small-12 small-order-1 medium-order-1 large-order-2">
             <ul className="breadcrumbs">
@@ -63,20 +75,9 @@ export default function Template({data}) {
           </div>
           <div className="columns large-6 small-12 medium-order-3 small-order-3">
             <div className="statistics info">
-              <h3 className="item__caption">{frontmatter.modulesTitle}</h3>
+              {frontmatter.statistics && frontmatter.statistics.length && <h3 className="item__caption">Показатели</h3>}
               <ul className="info__list">
-                {frontmatter.modules && frontmatter.modules.length && frontmatter.modules.map((moduleItem, index) => {
-                  return (
-                    <li className="info__item" key={index}>
-                      <span>{moduleItem}</span>
-                    </li>
-                  )
-                })}
-              </ul>
-              {frontmatter.modules && frontmatter.modules.length && <hr className="hr"/>}
-              <h3 className="item__caption">Показатели</h3>
-              <ul className="info__list">
-                {frontmatter.statistics.map((statistic, index) => {
+                {frontmatter.statistics && frontmatter.statistics.length && frontmatter.statistics.map((statistic, index) => {
                   return (
                     <li key={index} className="info__item">
                       <span>{statistic}</span>
@@ -84,7 +85,7 @@ export default function Template({data}) {
                   )
                 })}
               </ul>
-              <hr className="hr"/>
+              {frontmatter.statistics && frontmatter.statistics.length && <hr className="hr"/>}
               <h3 className="item__caption">Технологии</h3>
               <ul className="info__list">
                 {frontmatter.technologies.map((technology, index) => {
